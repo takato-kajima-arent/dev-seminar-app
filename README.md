@@ -59,7 +59,7 @@ npm run test:mcp            # 全ツールを呼んで確認し、最後に初�
 
 ### ローカルから AI につなぐ（トンネル）
 
-Grok などの AI は自社のサーバーから接続してくるため、`localhost` には届きません。トンネルで公開 URL を出して使います。
+ChatGPT（開発者モードのカスタムコネクタ）や Grok などの AI は自社のサーバーから接続してくるため、`localhost` には届きません。トンネルで公開 URL を出して使います。
 
 ```bash
 cloudflared tunnel --url http://localhost:3000

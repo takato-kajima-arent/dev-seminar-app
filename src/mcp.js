@@ -68,6 +68,13 @@ export function buildMcpServer() {
     },
   );
 
+  // 全ツールに注釈を付ける。読み取り専用のツールは readOnlyHint=true
+  // （ChatGPT などのクライアントは、これがないと読むだけの呼び出しでも毎回確認を求めることがある）
+  const WRITE_TOOLS = new Set(["post_chat_message", "add_todo", "create_calendar_event", "create_excel"]);
+  const register = server.registerTool.bind(server);
+  server.registerTool = (name, cfg, cb) =>
+    register(name, { ...cfg, annotations: { readOnlyHint: !WRITE_TOOLS.has(name), destructiveHint: false, idempotentHint: !WRITE_TOOLS.has(name), openWorldHint: false, ...cfg.annotations } }, cb);
+
   // --- 状況 ---
   server.registerTool(
     "get_context",
