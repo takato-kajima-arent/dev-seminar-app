@@ -1,0 +1,516 @@
+{
+  "today": "2026-11-11",
+  "demoNow": "2026-11-11T13:00:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "site": {
+    "id": "site-konan",
+    "name": "（仮称）港南三丁目オフィスビル新築工事",
+    "shortName": "港南三丁目現場",
+    "address": "東京都港区港南3丁目（架空）",
+    "structure": "S造・一部RC造 地上12階 地下1階",
+    "period": {
+      "start": "2025-10-01",
+      "end": "2027-03-31"
+    },
+    "generalContractorId": "c-gc",
+    "ownerId": "c-owner",
+    "designerId": "c-design",
+    "protagonistId": "u-sato",
+    "assistantId": "u-ai"
+  },
+  "areas": [
+    {
+      "id": "area-1",
+      "name": "1工区",
+      "floors": "B1F〜4F"
+    },
+    {
+      "id": "area-2",
+      "name": "2工区",
+      "floors": "5F〜8F"
+    },
+    {
+      "id": "area-3",
+      "name": "3工区",
+      "floors": "9F〜12F・屋上"
+    },
+    {
+      "id": "area-ext",
+      "name": "外構・外部",
+      "floors": "外部足場・外構"
+    }
+  ],
+  "companies": [
+    {
+      "id": "c-gc",
+      "name": "東都建設株式会社",
+      "shortName": "東都建設",
+      "role": "元請",
+      "trade": "総合建設",
+      "emailDomain": "toto-kensetsu.example"
+    },
+    {
+      "id": "c-owner",
+      "name": "港南不動産開発株式会社",
+      "shortName": "港南不動産開発",
+      "role": "施主",
+      "trade": "発注者",
+      "emailDomain": "konan-fudosan.example"
+    },
+    {
+      "id": "c-design",
+      "name": "森田設計事務所",
+      "shortName": "森田設計",
+      "role": "設計監理",
+      "trade": "設計監理",
+      "emailDomain": "morita-sekkei.example"
+    },
+    {
+      "id": "c-tekkin",
+      "name": "港南鉄筋工業株式会社",
+      "shortName": "港南鉄筋工業",
+      "role": "協力会社",
+      "trade": "鉄筋",
+      "emailDomain": "konan-tekkin.example"
+    },
+    {
+      "id": "c-katawaku",
+      "name": "東和型枠株式会社",
+      "shortName": "東和型枠",
+      "role": "協力会社",
+      "trade": "型枠",
+      "emailDomain": "towa-katawaku.example"
+    },
+    {
+      "id": "c-tobi",
+      "name": "北斗鳶工業株式会社",
+      "shortName": "北斗鳶工業",
+      "role": "協力会社",
+      "trade": "鳶・足場",
+      "emailDomain": "hokuto-tobi.example"
+    },
+    {
+      "id": "c-denki",
+      "name": "三光電設株式会社",
+      "shortName": "三光電設",
+      "role": "協力会社",
+      "trade": "電気設備",
+      "emailDomain": "sanko-densetsu.example"
+    },
+    {
+      "id": "c-kucho",
+      "name": "富士空調システム株式会社",
+      "shortName": "富士空調システム",
+      "role": "協力会社",
+      "trade": "空調設備",
+      "emailDomain": "fuji-kucho.example"
+    },
+    {
+      "id": "c-eisei",
+      "name": "青葉設備工業株式会社",
+      "shortName": "青葉設備工業",
+      "role": "協力会社",
+      "trade": "給排水衛生設備",
+      "emailDomain": "aoba-setsubi.example"
+    },
+    {
+      "id": "c-naiso",
+      "name": "東邦内装株式会社",
+      "shortName": "東邦内装",
+      "role": "協力会社",
+      "trade": "内装（LGS・ボード）",
+      "emailDomain": "toho-naiso.example"
+    },
+    {
+      "id": "c-tosou",
+      "name": "光陽塗装株式会社",
+      "shortName": "光陽塗装",
+      "role": "協力会社",
+      "trade": "塗装・シーリング",
+      "emailDomain": "koyo-tosou.example"
+    },
+    {
+      "id": "c-bousui",
+      "name": "日進防水株式会社",
+      "shortName": "日進防水",
+      "role": "協力会社",
+      "trade": "防水",
+      "emailDomain": "nisshin-bousui.example"
+    },
+    {
+      "id": "c-sash",
+      "name": "明和サッシ株式会社",
+      "shortName": "明和サッシ",
+      "role": "協力会社",
+      "trade": "サッシ・ガラス",
+      "emailDomain": "meiwa-sash.example"
+    },
+    {
+      "id": "c-ev",
+      "name": "ミツワ昇降機株式会社",
+      "shortName": "ミツワ昇降機",
+      "role": "協力会社",
+      "trade": "エレベーター",
+      "emailDomain": "mitsuwa-elevator.example"
+    },
+    {
+      "id": "c-gaiko",
+      "name": "新栄外構株式会社",
+      "shortName": "新栄外構",
+      "role": "協力会社",
+      "trade": "外構・舗装",
+      "emailDomain": "shinei-gaiko.example"
+    },
+    {
+      "id": "c-floor",
+      "name": "山王インテリア株式会社",
+      "shortName": "山王インテリア",
+      "role": "協力会社",
+      "trade": "床・クロス",
+      "emailDomain": "sanno-interior.example"
+    },
+    {
+      "id": "c-shobo",
+      "name": "関東消防設備株式会社",
+      "shortName": "関東消防設備",
+      "role": "協力会社",
+      "trade": "消防設備",
+      "emailDomain": "kanto-shobo.example"
+    },
+    {
+      "id": "c-crane",
+      "name": "大江戸クレーン株式会社",
+      "shortName": "大江戸クレーン",
+      "role": "協力会社",
+      "trade": "揚重・クレーン",
+      "emailDomain": "oedo-crane.example"
+    },
+    {
+      "id": "c-concrete",
+      "name": "城南生コン株式会社",
+      "shortName": "城南生コン",
+      "role": "協力会社",
+      "trade": "生コン",
+      "emailDomain": "jonan-namacon.example"
+    }
+  ],
+  "people": [
+    {
+      "id": "u-sato",
+      "name": "佐藤 健一",
+      "kana": "さとう けんいち",
+      "companyId": "c-gc",
+      "title": "工事主任（現場監督）",
+      "email": "k.sato@toto-kensetsu.example",
+      "color": "#2f7d6d",
+      "isProtagonist": true
+    },
+    {
+      "id": "u-yamamoto",
+      "name": "山本 浩二",
+      "kana": "やまもと こうじ",
+      "companyId": "c-gc",
+      "title": "作業所長",
+      "email": "k.yamamoto@toto-kensetsu.example",
+      "color": "#5b6abf"
+    },
+    {
+      "id": "u-nakamura",
+      "name": "中村 大輔",
+      "kana": "なかむら だいすけ",
+      "companyId": "c-gc",
+      "title": "設備担当",
+      "email": "d.nakamura@toto-kensetsu.example",
+      "color": "#c26a2e"
+    },
+    {
+      "id": "u-kobayashi",
+      "name": "小林 美咲",
+      "kana": "こばやし みさき",
+      "companyId": "c-gc",
+      "title": "建築仕上担当（内装）",
+      "email": "m.kobayashi@toto-kensetsu.example",
+      "color": "#b5487a"
+    },
+    {
+      "id": "u-ito",
+      "name": "伊藤 翔",
+      "kana": "いとう しょう",
+      "companyId": "c-gc",
+      "title": "工事担当（安全）",
+      "email": "s.ito@toto-kensetsu.example",
+      "color": "#3a8fc2"
+    },
+    {
+      "id": "u-kato",
+      "name": "加藤 恵子",
+      "kana": "かとう けいこ",
+      "companyId": "c-gc",
+      "title": "本社 工務部 工事管理課 課長",
+      "email": "k.kato@toto-kensetsu.example",
+      "color": "#8a6d3b"
+    },
+    {
+      "id": "u-ono",
+      "name": "大野 正人",
+      "kana": "おおの まさと",
+      "companyId": "c-gc",
+      "title": "本社 工務部長",
+      "email": "m.ono@toto-kensetsu.example",
+      "color": "#5a5a7a"
+    },
+    {
+      "id": "u-saito",
+      "name": "斎藤 学",
+      "kana": "さいとう まなぶ",
+      "companyId": "c-gc",
+      "title": "本社 安全環境部",
+      "email": "m.saito@toto-kensetsu.example",
+      "color": "#6b7b3a"
+    },
+    {
+      "id": "u-takahashi",
+      "name": "高橋 由紀",
+      "kana": "たかはし ゆき",
+      "companyId": "c-gc",
+      "title": "作業所 事務担当",
+      "email": "y.takahashi@toto-kensetsu.example",
+      "color": "#9c6ade"
+    },
+    {
+      "id": "u-nishida",
+      "name": "西田 綾",
+      "kana": "にしだ あや",
+      "companyId": "c-gc",
+      "title": "本社 経理部",
+      "email": "a.nishida@toto-kensetsu.example",
+      "color": "#7a6a4f"
+    },
+    {
+      "id": "u-ogawa",
+      "name": "小川 隆司",
+      "kana": "おがわ たかし",
+      "companyId": "c-gc",
+      "title": "大井町作業所 所長（他現場）",
+      "email": "t.ogawa@toto-kensetsu.example",
+      "color": "#4f6d7a"
+    },
+    {
+      "id": "u-tamura",
+      "name": "田村 弘",
+      "kana": "たむら ひろし",
+      "companyId": "c-gc",
+      "title": "品川駅前作業所 所長（他現場）",
+      "email": "h.tamura@toto-kensetsu.example",
+      "color": "#4f6d7a"
+    },
+    {
+      "id": "u-ai",
+      "name": "AI秘書",
+      "kana": "えーあいひしょ",
+      "companyId": "c-gc",
+      "title": "佐藤さん専属のAI秘書",
+      "email": "ai-secretary@toto-kensetsu.example",
+      "color": "#7c4dff",
+      "isBot": true
+    },
+    {
+      "id": "u-ueda",
+      "name": "上田 直樹",
+      "kana": "うえだ なおき",
+      "companyId": "c-owner",
+      "title": "開発推進部 課長",
+      "email": "n.ueda@konan-fudosan.example",
+      "color": "#4d5d6b"
+    },
+    {
+      "id": "u-morita",
+      "name": "森田 亮",
+      "kana": "もりた りょう",
+      "companyId": "c-design",
+      "title": "監理担当",
+      "email": "r.morita@morita-sekkei.example",
+      "color": "#4d5d6b"
+    },
+    {
+      "id": "u-okada",
+      "name": "岡田 正",
+      "kana": "おかだ ただし",
+      "companyId": "c-tekkin",
+      "title": "職長",
+      "email": "okada@konan-tekkin.example",
+      "color": "#7a5c3e"
+    },
+    {
+      "id": "u-ishii",
+      "name": "石井 勇",
+      "kana": "いしい いさむ",
+      "companyId": "c-katawaku",
+      "title": "職長",
+      "email": "ishii@towa-katawaku.example",
+      "color": "#7a5c3e"
+    },
+    {
+      "id": "u-matsumoto",
+      "name": "松本 剛",
+      "kana": "まつもと つよし",
+      "companyId": "c-tobi",
+      "title": "職長",
+      "email": "matsumoto@hokuto-tobi.example",
+      "color": "#a0522d"
+    },
+    {
+      "id": "u-inoue",
+      "name": "井上 拓也",
+      "kana": "いのうえ たくや",
+      "companyId": "c-denki",
+      "title": "職長",
+      "email": "inoue@sanko-densetsu.example",
+      "color": "#d4a017"
+    },
+    {
+      "id": "u-kimura",
+      "name": "木村 聡",
+      "kana": "きむら さとし",
+      "companyId": "c-kucho",
+      "title": "現場代理人",
+      "email": "kimura@fuji-kucho.example",
+      "color": "#2e86c1"
+    },
+    {
+      "id": "u-hayashi",
+      "name": "林 和也",
+      "kana": "はやし かずや",
+      "companyId": "c-eisei",
+      "title": "職長",
+      "email": "hayashi@aoba-setsubi.example",
+      "color": "#17a589"
+    },
+    {
+      "id": "u-shimizu",
+      "name": "清水 隆",
+      "kana": "しみず たかし",
+      "companyId": "c-naiso",
+      "title": "職長",
+      "email": "shimizu@toho-naiso.example",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "u-yamaguchi",
+      "name": "山口 誠",
+      "kana": "やまぐち まこと",
+      "companyId": "c-tosou",
+      "title": "職長",
+      "email": "yamaguchi@koyo-tosou.example",
+      "color": "#e67e22"
+    },
+    {
+      "id": "u-mori",
+      "name": "森 健太",
+      "kana": "もり けんた",
+      "companyId": "c-bousui",
+      "title": "職長",
+      "email": "mori@nisshin-bousui.example",
+      "color": "#5d6d7e"
+    },
+    {
+      "id": "u-ikeda",
+      "name": "池田 修",
+      "kana": "いけだ おさむ",
+      "companyId": "c-sash",
+      "title": "職長",
+      "email": "ikeda@meiwa-sash.example",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "u-abe",
+      "name": "阿部 誠司",
+      "kana": "あべ せいじ",
+      "companyId": "c-ev",
+      "title": "工事担当",
+      "email": "abe@mitsuwa-elevator.example",
+      "color": "#34495e"
+    },
+    {
+      "id": "u-yamashita",
+      "name": "山下 浩",
+      "kana": "やました ひろし",
+      "companyId": "c-gaiko",
+      "title": "職長",
+      "email": "yamashita@shinei-gaiko.example",
+      "color": "#6e8b3d"
+    },
+    {
+      "id": "u-nakajima",
+      "name": "中島 由美",
+      "kana": "なかじま ゆみ",
+      "companyId": "c-floor",
+      "title": "工事担当",
+      "email": "nakajima@sanno-interior.example",
+      "color": "#c0392b"
+    },
+    {
+      "id": "u-maeda",
+      "name": "前田 昭",
+      "kana": "まえだ あきら",
+      "companyId": "c-shobo",
+      "title": "職長",
+      "email": "maeda@kanto-shobo.example",
+      "color": "#cb4335"
+    },
+    {
+      "id": "u-fujita",
+      "name": "藤田 茂",
+      "kana": "ふじた しげる",
+      "companyId": "c-crane",
+      "title": "オペレーター責任者",
+      "email": "fujita@oedo-crane.example",
+      "color": "#566573"
+    },
+    {
+      "id": "u-goto",
+      "name": "後藤 英樹",
+      "kana": "ごとう ひでき",
+      "companyId": "c-concrete",
+      "title": "出荷担当",
+      "email": "goto@jonan-namacon.example",
+      "color": "#7f8c8d"
+    }
+  ],
+  "personas": [
+    {
+      "id": "field",
+      "label": "現場管理者",
+      "personId": "u-sato",
+      "summary": "現場監督。協力会社への指示・工程・安全・品質を見る",
+      "calendarUserIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi"
+      ]
+    },
+    {
+      "id": "honsha",
+      "label": "本社",
+      "personId": "u-kato",
+      "summary": "本社 工務部。複数現場の進捗・出来高・リスクを把握する",
+      "calendarUserIds": [
+        "u-kato",
+        "u-yamamoto",
+        "u-sato"
+      ]
+    },
+    {
+      "id": "jimu",
+      "label": "事務",
+      "personId": "u-takahashi",
+      "summary": "作業所の事務。日報・安全書類・請求・各種提出物を取りまとめる",
+      "calendarUserIds": [
+        "u-takahashi",
+        "u-sato",
+        "u-yamamoto"
+      ]
+    }
+  ],
+  "defaultPersonaId": "field"
+}

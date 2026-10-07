@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>工程表</title>
+<link rel="stylesheet" href="/schedule/schedule.css">
+</head>
+<body>
+<script src="/shared/nav.js"></script>
+
+<header class="app-header">
+  <div class="hd-left">
+    <span class="hd-logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="22" height="22"><rect x="3" y="5" width="18" height="15" rx="2" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M3 9.5h18" stroke="#fff" stroke-width="1.8"/><rect x="6" y="12" width="7" height="2.4" rx="1" fill="#f47b20"/><rect x="9" y="16" width="9" height="2.4" rx="1" fill="#fff"/></svg>
+    </span>
+    <div class="hd-project">
+      <div class="hd-company">東都建設 ｜ 現場管理</div>
+      <div class="hd-name" id="project-name">工程表</div>
+    </div>
+  </div>
+  <nav class="hd-tool">
+    <span class="hd-tool-label">ツール</span>
+    <span class="hd-tool-name">工程表</span>
+  </nav>
+  <div class="hd-right">
+    <span class="hd-live" id="live"><span class="dot"></span>ライブ</span>
+    <span class="hd-updated" id="updated"></span>
+    <span class="hd-actor" id="actor-label"></span>
+    <span class="hd-me" id="me"></span>
+  </div>
+</header>
+
+<div class="page">
+  <div class="page-title-row">
+    <h1>工程表 <span class="sub">ガントチャート</span></h1>
+    <span class="view-badge" id="view-badge" hidden></span>
+    <div class="legend">
+      <span><i class="lg lg-done"></i>完了</span>
+      <span><i class="lg lg-in_progress"></i>進行中</span>
+      <span><i class="lg lg-not_started"></i>未着手</span>
+      <span><i class="lg lg-delayed"></i>遅延</span>
+      <span><i class="lg lg-base"></i>当初計画</span>
+      <span><i class="lg-ms"></i>マイルストーン</span>
+      <span><b class="lg-out">☂</b>屋外作業</span>
+      <span><i class="lg-today"></i>今日</span>
+    </div>
+  </div>
+
+  <section class="cards" id="cards"></section>
+
+  <section class="toolbar">
+    <div class="tb-group">
+      <label class="sel"><span>担当会社</span><select id="f-company"><option value="">すべて</option></select></label>
+      <label class="sel"><span>工区</span><select id="f-area"><option value="">すべて</option></select></label>
+    </div>
+    <div class="tb-group toggles">
+      <button class="tg" data-flag="tomorrow" type="button">明日の作業のみ</button>
+      <button class="tg tg-red" data-flag="delayed" type="button">遅延のみ</button>
+      <button class="tg" data-flag="outdoor" type="button">☂ 屋外作業のみ</button>
+      <button class="tb-clear" id="f-clear" type="button">条件クリア</button>
+    </div>
+    <div class="tb-spacer"></div>
+    <div class="tb-group">
+      <span class="seg-label">グループ</span>
+      <div class="seg" id="seg-group">
+        <button data-v="wbs" type="button">WBS</button>
+        <button data-v="area" type="button">工区</button>
+        <button data-v="category" type="button">工種</button>
+      </div>
+      <span class="seg-label">表示期間</span>
+      <div class="seg" id="seg-range">
+        <button data-v="all" type="button">全期間</button>
+        <button data-v="focus" type="button">直近3週</button>
+      </div>
+      <button class="tb-btn" id="expand-all" type="button">すべて展開</button>
+      <button class="tb-btn" id="collapse-all" type="button">すべて折りたたむ</button>
+    </div>
+  </section>
+
+  <div class="result-line" id="result-line"></div>
+
+  <section class="sched" id="sched">
+    <div class="sched-head" id="sched-head"></div>
+    <div class="sched-body" id="sched-body"></div>
+    <div class="empty" id="empty" hidden>条件に一致する作業はありません</div>
+  </section>
+</div>
+
+<aside class="detail" id="detail" hidden>
+  <div class="detail-hd">
+    <div>
+      <div class="detail-wbs" id="d-wbs"></div>
+      <h2 id="d-title"></h2>
+    </div>
+    <button class="detail-close" id="d-close" type="button" aria-label="閉じる">×</button>
+  </div>
+  <div class="detail-body" id="d-body"></div>
+</aside>
+
+<div class="toast" id="toast" hidden></div>
+
+<script type="module" src="/schedule/schedule.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>現場チャット</title>
+  <link rel="stylesheet" href="/chat/chat.css" />
+</head>
+<body>
+  <script src="/shared/nav.js"></script>
+
+  <div id="app" class="app">
+    <!-- 左レール -->
+    <aside class="rail">
+      <div class="rail-org" id="rail-org" title="">港</div>
+      <button class="rail-item on" data-view="talk" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.2 3.6c-.5.4-1.3.1-1.3-.6V16A2.5 2.5 0 0 1 4 13.5z"/></svg>
+        <span>トーク</span>
+        <i class="rail-badge" id="rail-badge-talk" hidden></i>
+      </button>
+      <button class="rail-item" data-view="tasks" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm2.3 8.2 3 3 6.4-6.4-1.4-1.4-5 5-1.6-1.6z"/></svg>
+        <span>タスク</span>
+        <i class="rail-badge" id="rail-badge-tasks" hidden></i>
+      </button>
+      <div class="rail-sp"></div>
+      <button class="rail-item dim" type="button" tabindex="-1">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h9.3a2.5 2.5 0 0 1 4.4 0H20v2h-2.3a2.5 2.5 0 0 1-4.4 0H4zm0 10h3.3a2.5 2.5 0 0 1 4.4 0H20v2h-8.3a2.5 2.5 0 0 1-4.4 0H4zm0-5h12.3a2.5 2.5 0 0 1 4.4 0v2h-4.4a2.5 2.5 0 0 1-4.4 0H4z"/></svg>
+        <span>設定</span>
+      </button>
+      <div class="rail-me" id="rail-me"></div>
+    </aside>
+
+    <!-- トーク画面 -->
+    <section class="view view-talk" id="view-talk">
+      <div class="list-col">
+        <div class="list-head">
+          <div class="list-org" id="list-org">
+            <span class="list-org-name" id="org-name">現場</span>
+            <span class="list-org-sub" id="org-sub"></span>
+            <span class="list-actor" id="list-actor"></span>
+          </div>
+          <h1 class="list-title">トーク</h1>
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 0 1 5.2 10.4l4.4 4.4-1.4 1.4-4.4-4.4A6.5 6.5 0 1 1 10.5 4zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9z"/></svg>
+            <input id="search" type="search" placeholder="トーク名・メッセージを検索" autocomplete="off" />
+          </label>
+          <div class="tabs" id="tabs">
+            <button data-cat="all" class="on" type="button">すべて</button>
+            <button data-cat="工区" type="button">工区</button>
+            <button data-cat="テーマ" type="button">テーマ</button>
+            <button data-cat="会社" type="button">会社</button>
+            <button data-cat="社内" type="button">社内</button>
+          </div>
+        </div>
+        <ul class="room-list" id="room-list"></ul>
+      </div>
+
+      <main class="main-col" id="main-col">
+        <header class="room-head" id="room-head"></header>
+        <div class="msg-scroll" id="msg-scroll">
+          <div class="msg-list" id="msg-list"></div>
+        </div>
+        <button class="jump-bottom" id="jump-bottom" type="button" hidden>↓ 最新へ</button>
+        <footer class="composer">
+          <button class="comp-btn" type="button" tabindex="-1" aria-label="追加">
+            <svg viewBox="0 0 24 24"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z"/></svg>
+          </button>
+          <div class="comp-input">メッセージを入力（デモでは送信できません）</div>
+          <button class="comp-send" type="button" tabindex="-1" aria-label="送信">
+            <svg viewBox="0 0 24 24"><path d="M12 4l7 7-1.4 1.4L13 7.8V20h-2V7.8l-4.6 4.6L5 11z"/></svg>
+          </button>
+        </footer>
+      </main>
+
+      <aside class="side-col" id="side-col">
+        <div class="side-tabs">
+          <button data-side="tasks" class="on" type="button">タスク <b id="side-task-count"></b></button>
+          <button data-side="members" type="button">メンバー <b id="side-member-count"></b></button>
+        </div>
+        <div class="side-body" id="side-body"></div>
+      </aside>
+    </section>
+
+    <!-- タスク画面（全体） -->
+    <section class="view view-tasks" id="view-tasks" hidden>
+      <div class="tasks-wrap">
+        <header class="tasks-head">
+          <h1>タスク</h1>
+          <div class="seg" id="task-filter">
+            <button data-f="open" class="on" type="button">未完了 <b></b></button>
+            <button data-f="done" type="button">完了 <b></b></button>
+            <button data-f="all" type="button">すべて <b></b></button>
+          </div>
+          <div class="seg" id="task-scope">
+            <button data-s="mine" type="button">自分の担当</button>
+            <button data-s="req" type="button">依頼したタスク</button>
+            <button data-s="all" class="on" type="button">全員</button>
+          </div>
+        </header>
+        <div class="tasks-body" id="tasks-body"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" type="button" aria-label="閉じる">×</button>
+    <figure>
+      <img id="lb-img" alt="" />
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+  </div>
+  <div class="toasts" id="toasts"></div>
+
+  <script type="module" src="/chat/chat.js"></script>
+</body>
+</html>

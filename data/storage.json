@@ -1,0 +1,617 @@
+{
+  "rootName": "港南三丁目現場 共有フォルダ",
+  "folders": [
+    {
+      "id": "fo-root",
+      "name": "港南三丁目現場",
+      "parentId": null
+    },
+    {
+      "id": "fo-zumen",
+      "name": "01_図面",
+      "parentId": "fo-root"
+    },
+    {
+      "id": "fo-teirei",
+      "name": "02_定例会議",
+      "parentId": "fo-root"
+    },
+    {
+      "id": "fo-nippo",
+      "name": "03_日報",
+      "parentId": "fo-root"
+    },
+    {
+      "id": "fo-nippo-202610",
+      "name": "2026-10",
+      "parentId": "fo-nippo"
+    },
+    {
+      "id": "fo-nippo-202611",
+      "name": "2026-11",
+      "parentId": "fo-nippo"
+    },
+    {
+      "id": "fo-anzen",
+      "name": "04_安全書類",
+      "parentId": "fo-root"
+    },
+    {
+      "id": "fo-photo",
+      "name": "05_工事写真",
+      "parentId": "fo-root"
+    },
+    {
+      "id": "fo-photo-202610",
+      "name": "2026-10",
+      "parentId": "fo-photo"
+    },
+    {
+      "id": "fo-photo-202611",
+      "name": "2026-11",
+      "parentId": "fo-photo"
+    },
+    {
+      "id": "fo-koutei",
+      "name": "06_工程表",
+      "parentId": "fo-root"
+    },
+    {
+      "id": "fo-shiryo",
+      "name": "07_打合せ資料",
+      "parentId": "fo-root"
+    }
+  ],
+  "files": [
+    {
+      "id": "f-teirei-1110-txt",
+      "name": "2026-11-10_工程定例_文字起こし.txt",
+      "folderId": "fo-teirei",
+      "path": "files/teirei/2026-11-10_工程定例_文字起こし.txt",
+      "mime": "text/plain",
+      "size": 17593,
+      "updatedAt": "2026-11-10T18:30:00+09:00",
+      "updatedById": "u-ito",
+      "description": "11/10 工程定例の録音を自動文字起こししたもの（話者名は手動付与）"
+    },
+    {
+      "id": "f-teirei-1103-txt",
+      "name": "2026-11-03_工程定例_文字起こし.txt",
+      "folderId": "fo-teirei",
+      "path": "files/teirei/2026-11-03_工程定例_文字起こし.txt",
+      "mime": "text/plain",
+      "size": 4075,
+      "updatedAt": "2026-11-03T17:40:00+09:00",
+      "updatedById": "u-ito",
+      "description": "11/3 工程定例の文字起こし"
+    },
+    {
+      "id": "f-teirei-1103-pdf",
+      "name": "2026-11-03_工程定例_議事録.pdf",
+      "folderId": "fo-teirei",
+      "path": "files/teirei/2026-11-03_工程定例_議事録.pdf",
+      "mime": "application/pdf",
+      "size": 180127,
+      "updatedAt": "2026-11-04T09:20:00+09:00",
+      "updatedById": "u-ito",
+      "description": "11/3 工程定例の議事録（伊藤作成）"
+    },
+    {
+      "id": "f-patrol-1106-01",
+      "name": "20261106_パトロール指摘01_2F東側_床開口.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_パトロール指摘01_2F東側_床開口.png",
+      "mime": "image/png",
+      "size": 284136,
+      "updatedAt": "2026-11-06T10:33:00+09:00",
+      "updatedById": "u-ito",
+      "description": "2F 東側　床開口部 養生不足 北斗鳶工業"
+    },
+    {
+      "id": "f-patrol-1106-02",
+      "name": "20261106_パトロール指摘02_3F廊下_消火器前.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_パトロール指摘02_3F廊下_消火器前.png",
+      "mime": "image/png",
+      "size": 301570,
+      "updatedAt": "2026-11-06T10:40:00+09:00",
+      "updatedById": "u-ito",
+      "description": "3F 廊下　消火器の前に資材仮置き 東邦内装"
+    },
+    {
+      "id": "f-patrol-1106-03",
+      "name": "20261106_パトロール指摘03_6F_脚立天板.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_パトロール指摘03_6F_脚立天板.png",
+      "mime": "image/png",
+      "size": 285798,
+      "updatedAt": "2026-11-06T10:48:00+09:00",
+      "updatedById": "u-ito",
+      "description": "6F　脚立の天板に乗って作業 三光電設"
+    },
+    {
+      "id": "f-patrol-1106-04",
+      "name": "20261106_パトロール指摘04_外部東面5層_手すり.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_パトロール指摘04_外部東面5層_手すり.png",
+      "mime": "image/png",
+      "size": 209260,
+      "updatedAt": "2026-11-06T10:55:00+09:00",
+      "updatedById": "u-ito",
+      "description": "外部 東面 5層目　足場の手すり 外れ 北斗鳶工業"
+    },
+    {
+      "id": "f-patrol-1106-05",
+      "name": "20261106_パトロール指摘05_1F電気室前_ケーブル.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_パトロール指摘05_1F電気室前_ケーブル.png",
+      "mime": "image/png",
+      "size": 354387,
+      "updatedAt": "2026-11-06T11:03:00+09:00",
+      "updatedById": "u-ito",
+      "description": "1F 電気室前　通路に仮設ケーブル散乱 三光電設"
+    },
+    {
+      "id": "f-patrol-1106-06",
+      "name": "20261106_パトロール指摘06_屋上_ガスボンベ.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_パトロール指摘06_屋上_ガスボンベ.png",
+      "mime": "image/png",
+      "size": 226580,
+      "updatedAt": "2026-11-06T11:11:00+09:00",
+      "updatedById": "u-ito",
+      "description": "屋上　ガスボンベ 転倒防止なし 富士空調システム"
+    },
+    {
+      "id": "f-zesei-1106-01",
+      "name": "20261106_是正01_2F東側_床開口養生.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_是正01_2F東側_床開口養生.png",
+      "mime": "image/png",
+      "size": 306635,
+      "updatedAt": "2026-11-06T14:19:00+09:00",
+      "updatedById": "u-matsumoto",
+      "description": "2F 東側　床開口部 養生・固定 完了 北斗鳶工業"
+    },
+    {
+      "id": "f-zesei-1106-02",
+      "name": "20261106_是正02_3F廊下_消火器前.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261106_是正02_3F廊下_消火器前.png",
+      "mime": "image/png",
+      "size": 299328,
+      "updatedAt": "2026-11-06T13:04:00+09:00",
+      "updatedById": "u-shimizu",
+      "description": "3F 廊下　消火器前の資材 撤去 （3F倉庫へ移動）東邦内装"
+    },
+    {
+      "id": "f-zesei-1107-05",
+      "name": "20261107_是正05_1F電気室前_ケーブル整理.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261107_是正05_1F電気室前_ケーブル整理.png",
+      "mime": "image/png",
+      "size": 296869,
+      "updatedAt": "2026-11-07T10:14:00+09:00",
+      "updatedById": "u-inoue",
+      "description": "1F 電気室前　仮設ケーブル 壁際へ整理・養生 三光電設"
+    },
+    {
+      "id": "f-photo-1104-01",
+      "name": "20261104_6F_LGS下地_施工状況.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261104_6F_LGS下地_施工状況.png",
+      "mime": "image/png",
+      "size": 273972,
+      "updatedAt": "2026-11-04T16:05:00+09:00",
+      "updatedById": "u-kobayashi",
+      "description": "6F　LGS下地 施工状況 東邦内装"
+    },
+    {
+      "id": "f-photo-1109-01",
+      "name": "20261109_北側通路_既設排水管_試掘.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261109_北側通路_既設排水管_試掘.png",
+      "mime": "image/png",
+      "size": 166725,
+      "updatedAt": "2026-11-09T11:00:00+09:00",
+      "updatedById": "u-sato",
+      "description": "北側通路　既設排水管 位置確認（試掘） 図面より約500mm北側"
+    },
+    {
+      "id": "f-photo-1110-01",
+      "name": "20261110_屋上_室外機架台_据付状況.png",
+      "folderId": "fo-photo-202611",
+      "path": "files/photo/2026-11/20261110_屋上_室外機架台_据付状況.png",
+      "mime": "image/png",
+      "size": 191616,
+      "updatedAt": "2026-11-10T17:05:00+09:00",
+      "updatedById": "u-nakamura",
+      "description": "屋上　室外機架台 据付状況 富士空調システム"
+    },
+    {
+      "id": "f-photo-202610-01",
+      "name": "20261016_進捗01_6F_サッシガラス取付完了.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261016_進捗01_6F_サッシガラス取付完了.png",
+      "mime": "image/png",
+      "size": 280638,
+      "updatedAt": "2026-11-04T17:20:00+09:00",
+      "updatedById": "u-sato",
+      "description": "6F　サッシ・ガラス取付 完了 明和サッシ"
+    },
+    {
+      "id": "f-photo-202610-02",
+      "name": "20261022_進捗02_7F_サッシ取付施工状況.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261022_進捗02_7F_サッシ取付施工状況.png",
+      "mime": "image/png",
+      "size": 277659,
+      "updatedAt": "2026-11-04T17:21:00+09:00",
+      "updatedById": "u-sato",
+      "description": "7F　サッシ取付 施工状況 明和サッシ"
+    },
+    {
+      "id": "f-photo-202610-03",
+      "name": "20261023_進捗03_9F_LGS下地完了.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261023_進捗03_9F_LGS下地完了.png",
+      "mime": "image/png",
+      "size": 273907,
+      "updatedAt": "2026-11-04T17:22:00+09:00",
+      "updatedById": "u-sato",
+      "description": "9F　LGS下地 完了 東邦内装"
+    },
+    {
+      "id": "f-photo-202610-04",
+      "name": "20261026_進捗04_5F_天井ボード張り着手.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261026_進捗04_5F_天井ボード張り着手.png",
+      "mime": "image/png",
+      "size": 266749,
+      "updatedAt": "2026-11-04T17:23:00+09:00",
+      "updatedById": "u-sato",
+      "description": "5F　天井ボード張り 着手 東邦内装"
+    },
+    {
+      "id": "f-photo-202610-05",
+      "name": "20261027_進捗05_6F_空調ダクト冷媒配管施工状況.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261027_進捗05_6F_空調ダクト冷媒配管施工状況.png",
+      "mime": "image/png",
+      "size": 278492,
+      "updatedAt": "2026-11-04T17:24:00+09:00",
+      "updatedById": "u-sato",
+      "description": "6F　空調ダクト・冷媒配管 施工状況 富士空調システム"
+    },
+    {
+      "id": "f-photo-202610-06",
+      "name": "20261028_進捗06_8F_給排水配管施工状況.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261028_進捗06_8F_給排水配管施工状況.png",
+      "mime": "image/png",
+      "size": 286647,
+      "updatedAt": "2026-11-04T17:25:00+09:00",
+      "updatedById": "u-sato",
+      "description": "8F　給排水配管 施工状況 青葉設備工業"
+    },
+    {
+      "id": "f-photo-202610-07",
+      "name": "20261029_進捗07_7F_幹線ケーブル入線着手.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261029_進捗07_7F_幹線ケーブル入線着手.png",
+      "mime": "image/png",
+      "size": 284554,
+      "updatedAt": "2026-11-04T17:26:00+09:00",
+      "updatedById": "u-sato",
+      "description": "7F　幹線ケーブル入線 着手 三光電設"
+    },
+    {
+      "id": "f-photo-202610-08",
+      "name": "20261029_進捗08_5F_天井ボード張り施工状況.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261029_進捗08_5F_天井ボード張り施工状況.png",
+      "mime": "image/png",
+      "size": 245444,
+      "updatedAt": "2026-11-04T17:27:00+09:00",
+      "updatedById": "u-sato",
+      "description": "5F　天井ボード張り 施工状況 東邦内装"
+    },
+    {
+      "id": "f-photo-202610-09",
+      "name": "20261030_進捗09_外部東面_外観全景足場メッシュシート.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261030_進捗09_外部東面_外観全景足場メッシュシート.png",
+      "mime": "image/png",
+      "size": 145825,
+      "updatedAt": "2026-11-04T17:28:00+09:00",
+      "updatedById": "u-sato",
+      "description": "外部 東面　外観全景（足場・メッシュシート） 北斗鳶工業"
+    },
+    {
+      "id": "f-photo-202610-10",
+      "name": "20261030_進捗10_外部南面_外観全景足場メッシュシート.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261030_進捗10_外部南面_外観全景足場メッシュシート.png",
+      "mime": "image/png",
+      "size": 147188,
+      "updatedAt": "2026-11-04T17:29:00+09:00",
+      "updatedById": "u-sato",
+      "description": "外部 南面　外観全景（足場・メッシュシート） 北斗鳶工業"
+    },
+    {
+      "id": "f-photo-202610-11",
+      "name": "20261030_進捗11_7F_幹線ケーブル入線施工状況.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261030_進捗11_7F_幹線ケーブル入線施工状況.png",
+      "mime": "image/png",
+      "size": 292430,
+      "updatedAt": "2026-11-04T17:30:00+09:00",
+      "updatedById": "u-sato",
+      "description": "7F　幹線ケーブル入線 施工状況 三光電設"
+    },
+    {
+      "id": "f-photo-202610-12",
+      "name": "20261030_進捗12_9F_空調ダクト吊込み施工状況.png",
+      "folderId": "fo-photo-202610",
+      "path": "files/photo/2026-10/20261030_進捗12_9F_空調ダクト吊込み施工状況.png",
+      "mime": "image/png",
+      "size": 278090,
+      "updatedAt": "2026-11-04T17:31:00+09:00",
+      "updatedById": "u-sato",
+      "description": "9F　空調ダクト吊込み 施工状況 富士空調システム"
+    },
+    {
+      "id": "f-nippo-matome-1030-xlsx",
+      "name": "日報まとめ_2026-10-30.xlsx",
+      "folderId": "fo-nippo-202610",
+      "path": "files/nippo/2026-10/日報まとめ_2026-10-30.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7389,
+      "updatedAt": "2026-10-31T10:10:00+09:00",
+      "updatedById": "u-sato",
+      "description": "10/30 作業分の日報まとめ"
+    },
+    {
+      "id": "f-nippo-matome-1106-xlsx",
+      "name": "日報まとめ_2026-11-06.xlsx",
+      "folderId": "fo-nippo-202611",
+      "path": "files/nippo/2026-11/日報まとめ_2026-11-06.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7470,
+      "updatedAt": "2026-11-07T10:30:00+09:00",
+      "updatedById": "u-takahashi",
+      "description": "11/6 作業分の日報まとめ（事務 高橋が取りまとめ）"
+    },
+    {
+      "id": "f-nippo-matome-1109-xlsx",
+      "name": "日報まとめ_2026-11-09.xlsx",
+      "folderId": "fo-nippo-202611",
+      "path": "files/nippo/2026-11/日報まとめ_2026-11-09.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7497,
+      "updatedAt": "2026-11-10T10:45:00+09:00",
+      "updatedById": "u-takahashi",
+      "description": "11/9 作業分の日報まとめ（事務 高橋が取りまとめ）"
+    },
+    {
+      "id": "f-nippo-naiso-1110-png",
+      "name": "東邦内装_日報_1110.png",
+      "folderId": null,
+      "path": "files/mail/東邦内装_日報_1110.png",
+      "mime": "image/png",
+      "size": 245898,
+      "updatedAt": "2026-11-11T07:28:00+09:00",
+      "updatedById": "u-shimizu",
+      "description": "東邦内装 11/10 作業日報（手書きをスキャン）"
+    },
+    {
+      "id": "f-nippo-kucho-1110-xlsx",
+      "name": "作業日報_富士空調_20261110.xlsx",
+      "folderId": null,
+      "path": "files/mail/作業日報_富士空調_20261110.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7981,
+      "updatedAt": "2026-11-11T08:05:00+09:00",
+      "updatedById": "u-kimura",
+      "description": "富士空調システム 11/10 作業日報"
+    },
+    {
+      "id": "f-nippo-tosou-1110-pdf",
+      "name": "作業日報_光陽塗装_20261110.pdf",
+      "folderId": null,
+      "path": "files/mail/作業日報_光陽塗装_20261110.pdf",
+      "mime": "application/pdf",
+      "size": 120322,
+      "updatedAt": "2026-11-11T08:20:00+09:00",
+      "updatedById": "u-yamaguchi",
+      "description": "光陽塗装 11/10 作業日報"
+    },
+    {
+      "id": "f-nippo-kucho-1105-xlsx",
+      "name": "作業日報_富士空調_20261105.xlsx",
+      "folderId": null,
+      "path": "files/mail/作業日報_富士空調_20261105.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7854,
+      "updatedAt": "2026-11-06T08:10:00+09:00",
+      "updatedById": "u-kimura",
+      "description": "富士空調システム 11/5 作業日報"
+    },
+    {
+      "id": "f-nippo-tosou-1106-pdf",
+      "name": "作業日報_光陽塗装_20261106.pdf",
+      "folderId": null,
+      "path": "files/mail/作業日報_光陽塗装_20261106.pdf",
+      "mime": "application/pdf",
+      "size": 104306,
+      "updatedAt": "2026-11-07T08:15:00+09:00",
+      "updatedById": "u-yamaguchi",
+      "description": "光陽塗装 11/6 作業日報"
+    },
+    {
+      "id": "f-mail-anzentaikai-pdf",
+      "name": "2026年末安全大会_開催案内.pdf",
+      "folderId": null,
+      "path": "files/mail/2026年末安全大会_開催案内.pdf",
+      "mime": "application/pdf",
+      "size": 88851,
+      "updatedAt": "2026-10-30T15:50:00+09:00",
+      "updatedById": "u-saito",
+      "description": "本社 安全環境部 年末安全大会の開催案内"
+    },
+    {
+      "id": "f-mail-shoninsho-3f-pdf",
+      "name": "設計変更承認書_3F会議室天井高.pdf",
+      "folderId": null,
+      "path": "files/mail/設計変更承認書_3F会議室天井高.pdf",
+      "mime": "application/pdf",
+      "size": 115877,
+      "updatedAt": "2026-11-11T09:45:00+09:00",
+      "updatedById": "u-morita",
+      "description": "3F会議室 天井高変更（CH2700→2600）の承認書。施工者欄は未記入"
+    },
+    {
+      "id": "f-route-okujo-pdf",
+      "name": "屋上機器_搬入ルート図.pdf",
+      "folderId": "fo-zumen",
+      "path": "files/zumen/屋上機器_搬入ルート図.pdf",
+      "mime": "application/pdf",
+      "size": 115394,
+      "updatedAt": "2026-11-04T11:40:00+09:00",
+      "updatedById": "u-sato",
+      "description": "屋上室外機の搬入・揚重ルート（富士空調へ送付）"
+    },
+    {
+      "id": "f-zumen-3f-pdf",
+      "name": "A-103_3階平面図_Rev3.pdf",
+      "folderId": "fo-zumen",
+      "path": "files/zumen/A-103_3階平面図_Rev3.pdf",
+      "mime": "application/pdf",
+      "size": 82053,
+      "updatedAt": "2026-11-09T17:20:00+09:00",
+      "updatedById": "u-kobayashi",
+      "description": "3階平面図（会議室A 天井高変更を反映）"
+    },
+    {
+      "id": "f-zumen-ev-koutei-pdf",
+      "name": "EV据付工程表_改訂.pdf",
+      "folderId": "fo-zumen",
+      "path": "files/zumen/EV据付工程表_改訂.pdf",
+      "mime": "application/pdf",
+      "size": 76267,
+      "updatedAt": "2026-10-30T11:10:00+09:00",
+      "updatedById": "u-abe",
+      "description": "ミツワ昇降機 EV据付工程表（改訂版。2号機 ガイドレール建込み 11/16〜）"
+    },
+    {
+      "id": "f-zumen-6f-eps-pdf",
+      "name": "E-612_6階EPS詳細図.pdf",
+      "folderId": "fo-zumen",
+      "path": "files/zumen/E-612_6階EPS詳細図.pdf",
+      "mime": "application/pdf",
+      "size": 73539,
+      "updatedAt": "2026-10-20T15:00:00+09:00",
+      "updatedById": "u-nakamura",
+      "description": "6F EPS 平面詳細・床開口"
+    },
+    {
+      "id": "f-zumen-gaiko-haisui-pdf",
+      "name": "G-021_外構_北側通路_排水ルート図_Rev1.pdf",
+      "folderId": "fo-zumen",
+      "path": "files/zumen/G-021_外構_北側通路_排水ルート図_Rev1.pdf",
+      "mime": "application/pdf",
+      "size": 85556,
+      "updatedAt": "2026-11-11T11:30:00+09:00",
+      "updatedById": "u-morita",
+      "description": "北側通路 既設排水管の実位置と変更ルート（森田設計の回答を反映）"
+    },
+    {
+      "id": "f-anzen-meibo-xlsx",
+      "name": "作業員名簿_2026-11.xlsx",
+      "folderId": "fo-anzen",
+      "path": "files/anzen/作業員名簿_2026-11.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 9368,
+      "updatedAt": "2026-11-10T17:30:00+09:00",
+      "updatedById": "u-takahashi",
+      "description": "協力会社 作業員名簿（11月更新・事務 高橋が管理）"
+    },
+    {
+      "id": "f-anzen-kyoiku-pdf",
+      "name": "新規入場者教育記録_2026-11.pdf",
+      "folderId": "fo-anzen",
+      "path": "files/anzen/新規入場者教育記録_2026-11.pdf",
+      "mime": "application/pdf",
+      "size": 174740,
+      "updatedAt": "2026-11-10T17:45:00+09:00",
+      "updatedById": "u-takahashi",
+      "description": "11/1〜11/10 の新規入場者教育記録（教育担当 伊藤、取りまとめ 高橋）"
+    },
+    {
+      "id": "f-anzen-teishutsu-xlsx",
+      "name": "提出状況一覧_2026-11.xlsx",
+      "folderId": "fo-anzen",
+      "path": "files/anzen/提出状況一覧_2026-11.xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 7871,
+      "updatedAt": "2026-11-11T11:20:00+09:00",
+      "updatedById": "u-takahashi",
+      "description": "協力会社の安全書類 提出状況（事務 高橋）"
+    },
+    {
+      "id": "f-koutei-w46-pdf",
+      "name": "週間工程表_W46.pdf",
+      "folderId": "fo-koutei",
+      "path": "files/koutei/週間工程表_W46.pdf",
+      "mime": "application/pdf",
+      "size": 146674,
+      "updatedAt": "2026-11-09T08:00:00+09:00",
+      "updatedById": "u-sato",
+      "description": "11/9〜11/14 の週間工程表"
+    },
+    {
+      "id": "f-shiryo-seshu-1104-pdf",
+      "name": "施主定例資料_第24回_2026-11-04.pdf",
+      "folderId": "fo-shiryo",
+      "path": "files/shiryo/施主定例資料_第24回_2026-11-04.pdf",
+      "mime": "application/pdf",
+      "size": 101252,
+      "updatedAt": "2026-11-04T09:00:00+09:00",
+      "updatedById": "u-sato",
+      "description": "第24回 施主定例の配布資料"
+    },
+    {
+      "id": "f-shiryo-tenjo3f-pdf",
+      "name": "3F会議室_天井高変更_検討資料.pdf",
+      "folderId": "fo-shiryo",
+      "path": "files/shiryo/3F会議室_天井高変更_検討資料.pdf",
+      "mime": "application/pdf",
+      "size": 77408,
+      "updatedAt": "2026-11-06T16:40:00+09:00",
+      "updatedById": "u-kobayashi",
+      "description": "3F会議室A 天井高さ変更の検討資料（森田設計と打合せ用）"
+    },
+    {
+      "id": "f-shiryo-juhenden-pdf",
+      "name": "受変電設備_切替作業要領書_案.pdf",
+      "folderId": "fo-shiryo",
+      "path": "files/shiryo/受変電設備_切替作業要領書_案.pdf",
+      "mime": "application/pdf",
+      "size": 121195,
+      "updatedAt": "2026-11-05T16:50:00+09:00",
+      "updatedById": "u-inoue",
+      "description": "三光電設 受変電設備 切替作業の要領書（案）"
+    },
+    {
+      "id": "f-shiryo-kyoiku-annai-pdf",
+      "name": "新規入場者教育_案内_1112.pdf",
+      "folderId": "fo-shiryo",
+      "path": "files/shiryo/新規入場者教育_案内_1112.pdf",
+      "mime": "application/pdf",
+      "size": 108970,
+      "updatedAt": "2026-11-10T16:30:00+09:00",
+      "updatedById": "u-takahashi",
+      "description": "11/12（木）13:00〜 新規入場者教育の案内（事務 高橋）"
+    }
+  ]
+}

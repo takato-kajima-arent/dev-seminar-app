@@ -1,0 +1,16 @@
+{
+  "location": "東京都港区",
+  "forecasts": [
+    { "date": "2026-11-08", "weather": "晴れ", "icon": "sunny", "precipProb": 0, "precipMm": 0, "tempHigh": 19, "tempLow": 11, "note": "穏やかな晴天" },
+    { "date": "2026-11-09", "weather": "晴れ時々曇り", "icon": "partly_cloudy", "precipProb": 10, "precipMm": 0, "tempHigh": 18, "tempLow": 11, "note": "" },
+    { "date": "2026-11-10", "weather": "晴れ", "icon": "sunny", "precipProb": 10, "precipMm": 0, "tempHigh": 18, "tempLow": 10, "note": "朝は冷え込む" },
+    { "date": "2026-11-11", "weather": "曇り", "icon": "cloudy", "precipProb": 30, "precipMm": 0, "tempHigh": 16, "tempLow": 11, "note": "終日くもり。夜遅くから雨の可能性" },
+    { "date": "2026-11-12", "weather": "雨", "icon": "rain", "precipProb": 90, "precipMm": 18, "tempHigh": 14, "tempLow": 10, "note": "終日雨。午後は北寄りの風がやや強い" },
+    { "date": "2026-11-13", "weather": "晴れ", "icon": "sunny", "precipProb": 10, "precipMm": 0, "tempHigh": 18, "tempLow": 9, "note": "朝まで路面が濡れている所あり" },
+    { "date": "2026-11-14", "weather": "晴れ時々曇り", "icon": "partly_cloudy", "precipProb": 20, "precipMm": 0, "tempHigh": 17, "tempLow": 10, "note": "" },
+    { "date": "2026-11-15", "weather": "曇り", "icon": "cloudy", "precipProb": 30, "precipMm": 0, "tempHigh": 15, "tempLow": 10, "note": "" },
+    { "date": "2026-11-16", "weather": "晴れ", "icon": "sunny", "precipProb": 10, "precipMm": 0, "tempHigh": 17, "tempLow": 9, "note": "" },
+    { "date": "2026-11-17", "weather": "曇り時々晴れ", "icon": "partly_cloudy", "precipProb": 20, "precipMm": 0, "tempHigh": 16, "tempLow": 9, "note": "" },
+    { "date": "2026-11-18", "weather": "晴れ", "icon": "sunny", "precipProb": 10, "precipMm": 0, "tempHigh": 16, "tempLow": 8, "note": "風は弱く、クレーン作業に支障なし" }
+  ]
+}

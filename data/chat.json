@@ -1,0 +1,4419 @@
+{
+  "rooms": [
+    {
+      "id": "room-all",
+      "name": "全体連絡",
+      "category": "全体",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-yamamoto",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-ito",
+        "u-kato",
+        "u-saito",
+        "u-takahashi",
+        "u-okada",
+        "u-ishii",
+        "u-matsumoto",
+        "u-inoue",
+        "u-kimura",
+        "u-hayashi",
+        "u-shimizu",
+        "u-yamaguchi",
+        "u-mori",
+        "u-ikeda",
+        "u-abe",
+        "u-yamashita",
+        "u-nakajima",
+        "u-maeda",
+        "u-fujita",
+        "u-goto",
+        "u-ai"
+      ],
+      "description": "現場全体へのお知らせ（朝礼・休工・全館停電など）"
+    },
+    {
+      "id": "room-area1",
+      "name": "1工区（B1F〜4F）",
+      "category": "工区",
+      "areaId": "area-1",
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-nakamura",
+        "u-ito",
+        "u-hayashi",
+        "u-shimizu",
+        "u-yamaguchi",
+        "u-inoue",
+        "u-maeda",
+        "u-nakajima",
+        "u-takahashi",
+        "u-ai"
+      ],
+      "description": "1工区（B1F〜4F）の作業連絡・質疑"
+    },
+    {
+      "id": "room-area2",
+      "name": "2工区（5F〜8F）",
+      "category": "工区",
+      "areaId": "area-2",
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-nakamura",
+        "u-shimizu",
+        "u-inoue",
+        "u-kimura",
+        "u-ikeda",
+        "u-yamaguchi",
+        "u-takahashi",
+        "u-ai"
+      ],
+      "description": "2工区（5F〜8F）の作業連絡・質疑"
+    },
+    {
+      "id": "room-area3",
+      "name": "3工区（9F〜屋上）",
+      "category": "工区",
+      "areaId": "area-3",
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kimura",
+        "u-inoue",
+        "u-mori",
+        "u-abe",
+        "u-shimizu",
+        "u-takahashi",
+        "u-ai"
+      ],
+      "description": "3工区（9F〜12F・屋上）の作業連絡・質疑"
+    },
+    {
+      "id": "room-ext",
+      "name": "外構・外部",
+      "category": "工区",
+      "areaId": "area-ext",
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-ito",
+        "u-matsumoto",
+        "u-yamashita",
+        "u-yamaguchi",
+        "u-fujita",
+        "u-takahashi",
+        "u-ai"
+      ],
+      "description": "外部足場・外構工事の連絡"
+    },
+    {
+      "id": "room-patrol",
+      "name": "安全パトロール",
+      "category": "テーマ",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-yamamoto",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-ito",
+        "u-kato",
+        "u-saito",
+        "u-okada",
+        "u-ishii",
+        "u-matsumoto",
+        "u-inoue",
+        "u-kimura",
+        "u-hayashi",
+        "u-shimizu",
+        "u-yamaguchi",
+        "u-mori",
+        "u-ikeda",
+        "u-abe",
+        "u-yamashita",
+        "u-nakajima",
+        "u-maeda",
+        "u-fujita",
+        "u-goto",
+        "u-ai"
+      ],
+      "description": "安全パトロールの指摘と是正報告（是正は写真付きで返信）"
+    },
+    {
+      "id": "room-delivery",
+      "name": "搬入調整",
+      "category": "テーマ",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-ito",
+        "u-takahashi",
+        "u-okada",
+        "u-ishii",
+        "u-matsumoto",
+        "u-inoue",
+        "u-kimura",
+        "u-hayashi",
+        "u-shimizu",
+        "u-yamaguchi",
+        "u-mori",
+        "u-ikeda",
+        "u-abe",
+        "u-yamashita",
+        "u-nakajima",
+        "u-maeda",
+        "u-fujita",
+        "u-goto",
+        "u-ai"
+      ],
+      "description": "資材搬入・揚重・ゲートの予約調整"
+    },
+    {
+      "id": "room-headcount",
+      "name": "翌日作業・人員連絡",
+      "category": "テーマ",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-ito",
+        "u-takahashi",
+        "u-okada",
+        "u-ishii",
+        "u-matsumoto",
+        "u-inoue",
+        "u-kimura",
+        "u-hayashi",
+        "u-shimizu",
+        "u-yamaguchi",
+        "u-mori",
+        "u-ikeda",
+        "u-abe",
+        "u-yamashita",
+        "u-nakajima",
+        "u-maeda",
+        "u-fujita",
+        "u-goto",
+        "u-ai"
+      ],
+      "description": "翌日の作業内容と入場人数を各社から連絡"
+    },
+    {
+      "id": "room-gc",
+      "name": "東都建設 作業所内",
+      "category": "社内",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-sato",
+        "u-yamamoto",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-ito",
+        "u-kato",
+        "u-saito",
+        "u-takahashi",
+        "u-ai"
+      ],
+      "description": "東都建設の社内連絡（元請メンバーのみ）"
+    },
+    {
+      "id": "room-honsha",
+      "name": "本社工務部 ⇔ 港南作業所",
+      "category": "社内",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-kato",
+        "u-yamamoto",
+        "u-sato",
+        "u-takahashi",
+        "u-saito",
+        "u-ai"
+      ],
+      "description": "本社（工務部・安全環境部）と港南作業所の連絡（出来高・月次報告・届出など）"
+    },
+    {
+      "id": "room-jimu",
+      "name": "事務連絡（書類・提出物）",
+      "category": "テーマ",
+      "areaId": null,
+      "companyId": null,
+      "memberIds": [
+        "u-takahashi",
+        "u-sato",
+        "u-ito",
+        "u-okada",
+        "u-ishii",
+        "u-matsumoto",
+        "u-inoue",
+        "u-kimura",
+        "u-hayashi",
+        "u-shimizu",
+        "u-yamaguchi",
+        "u-mori",
+        "u-ikeda",
+        "u-abe",
+        "u-yamashita",
+        "u-nakajima",
+        "u-maeda",
+        "u-fujita",
+        "u-goto",
+        "u-ai"
+      ],
+      "description": "安全書類・作業員名簿・請求書・駐車場申請・日報提出などの事務連絡"
+    },
+    {
+      "id": "room-co-tekkin",
+      "name": "「港南鉄筋工業」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-tekkin",
+      "memberIds": [
+        "u-sato",
+        "u-okada",
+        "u-ai"
+      ],
+      "description": "港南鉄筋工業との個別連絡"
+    },
+    {
+      "id": "room-co-katawaku",
+      "name": "「東和型枠」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-katawaku",
+      "memberIds": [
+        "u-sato",
+        "u-ishii",
+        "u-ai"
+      ],
+      "description": "東和型枠との個別連絡"
+    },
+    {
+      "id": "room-co-tobi",
+      "name": "「北斗鳶工業」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-tobi",
+      "memberIds": [
+        "u-sato",
+        "u-matsumoto",
+        "u-ai"
+      ],
+      "description": "北斗鳶工業との個別連絡"
+    },
+    {
+      "id": "room-co-denki",
+      "name": "「三光電設」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-denki",
+      "memberIds": [
+        "u-sato",
+        "u-inoue",
+        "u-ai"
+      ],
+      "description": "三光電設との個別連絡"
+    },
+    {
+      "id": "room-co-kucho",
+      "name": "「富士空調システム」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-kucho",
+      "memberIds": [
+        "u-sato",
+        "u-kimura",
+        "u-ai"
+      ],
+      "description": "富士空調システムとの個別連絡"
+    },
+    {
+      "id": "room-co-eisei",
+      "name": "「青葉設備工業」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-eisei",
+      "memberIds": [
+        "u-sato",
+        "u-hayashi",
+        "u-ai"
+      ],
+      "description": "青葉設備工業との個別連絡"
+    },
+    {
+      "id": "room-co-naiso",
+      "name": "「東邦内装」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-naiso",
+      "memberIds": [
+        "u-sato",
+        "u-shimizu",
+        "u-ai"
+      ],
+      "description": "東邦内装との個別連絡"
+    },
+    {
+      "id": "room-co-tosou",
+      "name": "「光陽塗装」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-tosou",
+      "memberIds": [
+        "u-sato",
+        "u-yamaguchi",
+        "u-ai"
+      ],
+      "description": "光陽塗装との個別連絡"
+    },
+    {
+      "id": "room-co-bousui",
+      "name": "「日進防水」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-bousui",
+      "memberIds": [
+        "u-sato",
+        "u-mori",
+        "u-ai"
+      ],
+      "description": "日進防水との個別連絡"
+    },
+    {
+      "id": "room-co-sash",
+      "name": "「明和サッシ」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-sash",
+      "memberIds": [
+        "u-sato",
+        "u-ikeda",
+        "u-ai"
+      ],
+      "description": "明和サッシとの個別連絡"
+    },
+    {
+      "id": "room-co-ev",
+      "name": "「ミツワ昇降機」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-ev",
+      "memberIds": [
+        "u-sato",
+        "u-abe",
+        "u-ai"
+      ],
+      "description": "ミツワ昇降機との個別連絡"
+    },
+    {
+      "id": "room-co-gaiko",
+      "name": "「新栄外構」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-gaiko",
+      "memberIds": [
+        "u-sato",
+        "u-yamashita",
+        "u-ai"
+      ],
+      "description": "新栄外構との個別連絡"
+    },
+    {
+      "id": "room-co-floor",
+      "name": "「山王インテリア」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-floor",
+      "memberIds": [
+        "u-sato",
+        "u-nakajima",
+        "u-ai"
+      ],
+      "description": "山王インテリアとの個別連絡"
+    },
+    {
+      "id": "room-co-shobo",
+      "name": "「関東消防設備」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-shobo",
+      "memberIds": [
+        "u-sato",
+        "u-maeda",
+        "u-ai"
+      ],
+      "description": "関東消防設備との個別連絡"
+    },
+    {
+      "id": "room-co-crane",
+      "name": "「大江戸クレーン」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-crane",
+      "memberIds": [
+        "u-sato",
+        "u-fujita",
+        "u-ai"
+      ],
+      "description": "大江戸クレーンとの個別連絡"
+    },
+    {
+      "id": "room-co-concrete",
+      "name": "「城南生コン」連絡",
+      "category": "会社",
+      "areaId": null,
+      "companyId": "c-concrete",
+      "memberIds": [
+        "u-sato",
+        "u-goto",
+        "u-ai"
+      ],
+      "description": "城南生コンとの個別連絡"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-0001",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日の朝礼は8:00から1F朝礼広場です。KYシートの記入をお願いします。",
+      "sentAt": "2026-10-28T07:42:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-sato",
+            "u-matsumoto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0002",
+      "roomId": "room-delivery",
+      "senderId": "u-fujita",
+      "text": "明日10/29 9:00〜 25tラフター 北側に据えます。富士空調さんの架台材揚重です。",
+      "sentAt": "2026-10-28T08:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j001",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "協力会社の皆様、お疲れ様です。作業所事務の高橋です。安全書類・作業員名簿・請求書などの書類や提出物の連絡は、こちらのルームでお願いいたします。",
+      "sentAt": "2026-10-28T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0003",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。北側搬入口、9時〜12時は立入禁止区画にします。",
+      "sentAt": "2026-10-28T09:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h001",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "港南作業所の皆さん、お疲れ様です。本社工務部の加藤です。本社とのやりとり用にこのルームを作りました。出来高・月次報告・本社への届出関係はこちらでお願いします。",
+      "sentAt": "2026-10-28T09:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j002",
+      "roomId": "room-jimu",
+      "senderId": "u-ito",
+      "text": "よろしくお願いします。安全書類の関係もここで流します。",
+      "sentAt": "2026-10-28T09:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h002",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "ありがとうございます。よろしくお願いします。",
+      "sentAt": "2026-10-28T09:25:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h003",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "作業所事務の高橋です。本社への提出物は私の方でも取りまとめ・確認いたします。よろしくお願いいたします。",
+      "sentAt": "2026-10-28T09:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h004",
+      "roomId": "room-honsha",
+      "senderId": "u-sato",
+      "text": "佐藤です。よろしくお願いします。",
+      "sentAt": "2026-10-28T09:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j003",
+      "roomId": "room-jimu",
+      "senderId": "u-nakajima",
+      "text": "よろしくお願いします🙇‍♀️",
+      "sentAt": "2026-10-28T10:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0004",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "@小林 さん お疲れ様です。6F LGS下地、11/2から入ります。墨出しの確認お願いできますか。",
+      "sentAt": "2026-10-28T10:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-kobayashi"
+      ]
+    },
+    {
+      "id": "m-0005",
+      "roomId": "room-area2",
+      "senderId": "u-kobayashi",
+      "text": "了解です。10/30（金）の13時に6Fで墨確認しましょう。",
+      "sentAt": "2026-10-28T10:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0006",
+      "roomId": "room-area1",
+      "senderId": "u-yamaguchi",
+      "text": "おはようございます☀️ 2F共用廊下、明後日から下地入ります！",
+      "sentAt": "2026-10-28T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0007",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "今週末の10/31（土）は通常稼働、11/3（祝）は休工でいきます。",
+      "sentAt": "2026-10-28T13:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0008",
+      "roomId": "room-gc",
+      "senderId": "u-sato",
+      "text": "了解です。",
+      "sentAt": "2026-10-28T13:34:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0009",
+      "roomId": "room-area3",
+      "senderId": "u-abe",
+      "text": "お疲れ様でございます。1号機 かご組立、本日完了いたしました。明日より機器の取付に入ります。",
+      "sentAt": "2026-10-28T14:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0010",
+      "roomId": "room-area3",
+      "senderId": "u-inoue",
+      "text": "10F 分電盤の据付、今週中に終わらせます",
+      "sentAt": "2026-10-28T15:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0011",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 5名 8:00入場 5F 天井ボード",
+      "sentAt": "2026-10-28T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0012",
+      "roomId": "room-co-tekkin",
+      "senderId": "u-okada",
+      "text": "お疲れさまです。B1F の残材、明日10時に回収入ります。2tで1台です。",
+      "sentAt": "2026-10-28T16:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0013",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光 4名 7F 幹線",
+      "sentAt": "2026-10-28T16:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0014",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "明日 北斗鳶 4名 南面 足場盛替え 👍",
+      "sentAt": "2026-10-28T16:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0015",
+      "roomId": "room-co-tekkin",
+      "senderId": "u-sato",
+      "text": "了解です。西ゲートからでお願いします。",
+      "sentAt": "2026-10-28T16:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0016",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 2F 給水",
+      "sentAt": "2026-10-28T16:54:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0017",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。明日の富士空調システムは3名で入場いたします。作業：屋上 架台材 揚重・荷受け",
+      "sentAt": "2026-10-28T16:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0018",
+      "roomId": "room-co-crane",
+      "senderId": "u-fujita",
+      "text": "明日のラフター、7:30に現着します。",
+      "sentAt": "2026-10-28T17:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0019",
+      "roomId": "room-co-crane",
+      "senderId": "u-sato",
+      "text": "よろしくお願いします。",
+      "sentAt": "2026-10-28T17:25:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0020",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日9時〜12時、北側搬入口でラフター作業あります。通行注意でお願いします。",
+      "sentAt": "2026-10-29T07:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0021",
+      "roomId": "room-area3",
+      "senderId": "u-kimura",
+      "text": "おはようございます。本日9時より屋上へ架台材の揚重を行います。北側搬入口付近に立入禁止区画を設けますので、ご協力をお願いいたします。",
+      "sentAt": "2026-10-29T07:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0022",
+      "roomId": "room-ext",
+      "senderId": "u-fujita",
+      "text": "ラフター据付完了。9時から吊ります",
+      "sentAt": "2026-10-29T08:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0023",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "7F 幹線、東側から入線始めてます。通路にドラム置くんで足元注意で",
+      "sentAt": "2026-10-29T09:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j004",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "【駐車場の利用申請】11月分の現場駐車場（南側）の利用申請を受け付けます。台数と車両ナンバーを、10/30（金）までにこちらでお知らせください。",
+      "sentAt": "2026-10-29T10:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0024",
+      "roomId": "room-area1",
+      "senderId": "u-maeda",
+      "text": "@中村 さん 2F スプリンクラーヘッドの位置、天井割付と少し合わない所があります。確認お願いします。",
+      "sentAt": "2026-10-29T10:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-nakamura"
+      ]
+    },
+    {
+      "id": "m-0025",
+      "roomId": "room-area1",
+      "senderId": "u-nakamura",
+      "text": "午後見に行きます。",
+      "sentAt": "2026-10-29T10:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j005",
+      "roomId": "room-jimu",
+      "senderId": "u-inoue",
+      "text": "三光 2台です。ナンバーはあとで写真送ります",
+      "sentAt": "2026-10-29T10:40:00+09:00",
+      "replyToId": "m-j004",
+      "mentionIds": []
+    },
+    {
+      "id": "m-j006",
+      "roomId": "room-jimu",
+      "senderId": "u-kimura",
+      "text": "お世話になっております。富士空調システムは1台でお願いいたします。品川 400 さ 12-34 です。",
+      "sentAt": "2026-10-29T11:15:00+09:00",
+      "replyToId": "m-j004",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0026",
+      "roomId": "room-gc",
+      "senderId": "u-nakamura",
+      "text": "受変電の切替日程、電力会社と調整中です。決まったら共有します。",
+      "sentAt": "2026-10-29T11:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0027",
+      "roomId": "room-ext",
+      "senderId": "u-fujita",
+      "text": "揚重 完了です。片付けして13時に撤収します",
+      "sentAt": "2026-10-29T11:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0028",
+      "roomId": "room-co-katawaku",
+      "senderId": "u-ishii",
+      "text": "お疲れ様です。型枠材の返却、明日10/30の午後にトラック1台入れさせてください。",
+      "sentAt": "2026-10-29T13:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j007",
+      "roomId": "room-jimu",
+      "senderId": "u-matsumoto",
+      "text": "北斗鳶 1台 👍",
+      "sentAt": "2026-10-29T13:20:00+09:00",
+      "replyToId": "m-j004",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0029",
+      "roomId": "room-co-katawaku",
+      "senderId": "u-sato",
+      "text": "了解です。東ゲートでお願いします。",
+      "sentAt": "2026-10-29T13:22:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0030",
+      "roomId": "room-area1",
+      "senderId": "u-nakamura",
+      "text": "前田さん、2F確認しました。設備図どおりで割付側を少し振ります。ヘッド位置はそのままでOKです。",
+      "sentAt": "2026-10-29T14:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0031",
+      "roomId": "room-area1",
+      "senderId": "u-maeda",
+      "text": "了解です。ありがとうございます。",
+      "sentAt": "2026-10-29T14:35:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j008",
+      "roomId": "room-jimu",
+      "senderId": "u-shimizu",
+      "text": "東邦内装 2台お願いします。ナンバーはメールで送りました。",
+      "sentAt": "2026-10-29T15:30:00+09:00",
+      "replyToId": "m-j004",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0032",
+      "roomId": "room-delivery",
+      "senderId": "u-nakajima",
+      "text": "お疲れ様です。11/2（月）9:00 山王インテリア 4F床材 2t 1台、西ゲートで搬入お願いします。",
+      "sentAt": "2026-10-29T15:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0033",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です、予約入れました。",
+      "sentAt": "2026-10-29T15:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0034",
+      "roomId": "room-co-denki",
+      "senderId": "u-inoue",
+      "text": "お疲れっす。受変電の切替の段取り、中村さんと詰めてます。日程出たら教えてください",
+      "sentAt": "2026-10-29T16:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0035",
+      "roomId": "room-co-denki",
+      "senderId": "u-sato",
+      "text": "了解。中村から連絡いくと思います。",
+      "sentAt": "2026-10-29T16:18:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0036",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 5名 8:00入場 5F 天井ボード",
+      "sentAt": "2026-10-29T16:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0037",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光 4名 7F 幹線",
+      "sentAt": "2026-10-29T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0038",
+      "roomId": "room-headcount",
+      "senderId": "u-yamaguchi",
+      "text": "明日 光陽塗装 3名でお願いします🙏 2F 共用廊下 下地",
+      "sentAt": "2026-10-29T16:34:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0039",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 2F 給水",
+      "sentAt": "2026-10-29T16:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0040",
+      "roomId": "room-headcount",
+      "senderId": "u-maeda",
+      "text": "明日 関東消防 2名 2F SPヘッド",
+      "sentAt": "2026-10-29T16:48:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0041",
+      "roomId": "room-co-gaiko",
+      "senderId": "u-yamashita",
+      "text": "北側通路 11/4から掘削入ります",
+      "sentAt": "2026-10-29T17:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0042",
+      "roomId": "room-co-gaiko",
+      "senderId": "u-sato",
+      "text": "了解です。埋設物の図面は先日渡したものでお願いします。",
+      "sentAt": "2026-10-29T17:22:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0043",
+      "roomId": "room-co-ev",
+      "senderId": "u-abe",
+      "text": "お世話になっております。1号機の仮使用につきまして、11/2以降で手続きを進めさせていただきます。",
+      "sentAt": "2026-10-29T17:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0044",
+      "roomId": "room-co-ev",
+      "senderId": "u-sato",
+      "text": "よろしくお願いします。",
+      "sentAt": "2026-10-29T17:41:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0045",
+      "roomId": "room-co-naiso",
+      "senderId": "u-shimizu",
+      "text": "5F天井ボード、北側から張り進めてます。来週いっぱいかかります。",
+      "sentAt": "2026-10-29T17:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0046",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日10時〜 本社安全パトロール（斎藤さん来場）です。通路・開口部の整理をお願いします。",
+      "sentAt": "2026-10-30T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0047",
+      "roomId": "room-co-eisei",
+      "senderId": "u-hayashi",
+      "text": "お疲れ様です。衛生器具の承認図、本日提出します。",
+      "sentAt": "2026-10-30T08:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0048",
+      "roomId": "room-co-eisei",
+      "senderId": "u-sato",
+      "text": "ありがとうございます。中村に回します。",
+      "sentAt": "2026-10-30T08:25:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h005",
+      "roomId": "room-honsha",
+      "senderId": "u-saito",
+      "text": "安全環境部の斎藤です。本日10時から本社パトロールで伺います。よろしくお願いします。",
+      "sentAt": "2026-10-30T09:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0049",
+      "roomId": "room-co-bousui",
+      "senderId": "u-sato",
+      "text": "森さん、屋上防水の材料手配の状況、分かったら教えてください。",
+      "sentAt": "2026-10-30T09:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h006",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "お待ちしております。",
+      "sentAt": "2026-10-30T09:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j009",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "駐車場、11月分の割り当て表を事務所前に掲示いたしました。ご確認をお願いいたします。",
+      "sentAt": "2026-10-30T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0050",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "10/30 本社パトロール指摘：B1F 階段室 照明不足。三光電設さん、仮設照明の増設お願いします。",
+      "sentAt": "2026-10-30T10:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-inoue"
+      ]
+    },
+    {
+      "id": "m-0051",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "10/30 本社パトロール指摘：外部西面 養生ネットのたるみ。北斗鳶さん、張り直しお願いします。",
+      "sentAt": "2026-10-30T10:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-matsumoto"
+      ]
+    },
+    {
+      "id": "m-0052",
+      "roomId": "room-area3",
+      "senderId": "u-nakamura",
+      "text": "9F ダクトの吊りボルト、ピッチ1800以下でお願いします。",
+      "sentAt": "2026-10-30T11:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0053",
+      "roomId": "room-area3",
+      "senderId": "u-kimura",
+      "text": "承知いたしました。",
+      "sentAt": "2026-10-30T11:25:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0054",
+      "roomId": "room-gc",
+      "senderId": "u-saito",
+      "text": "本日はありがとうございました。指摘2件以外は良好でした。引き続きよろしくお願いします。",
+      "sentAt": "2026-10-30T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0055",
+      "roomId": "room-area2",
+      "senderId": "u-kobayashi",
+      "text": "清水さん、6Fに来てます。墨確認お願いします。",
+      "sentAt": "2026-10-30T13:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0056",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "今向かいます。",
+      "sentAt": "2026-10-30T13:08:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0057",
+      "roomId": "room-patrol",
+      "senderId": "u-inoue",
+      "text": "B1F 階段室、仮設照明2灯増設しました",
+      "sentAt": "2026-10-30T14:00:00+09:00",
+      "replyToId": "m-0050",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0058",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "伊藤くん、10月分の安全日誌、確認印もらえる？",
+      "sentAt": "2026-10-30T14:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0059",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "押印して所長の机に置きました。",
+      "sentAt": "2026-10-30T14:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0060",
+      "roomId": "room-patrol",
+      "senderId": "u-matsumoto",
+      "text": "西面ネット 張り直し完了っす👍",
+      "sentAt": "2026-10-30T15:20:00+09:00",
+      "replyToId": "m-0051",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0061",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "お二人ともありがとうございます。確認しました。",
+      "sentAt": "2026-10-30T15:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0062",
+      "roomId": "room-co-katawaku",
+      "senderId": "u-ishii",
+      "text": "トラック 東ゲートから出ました。ありがとうございました。",
+      "sentAt": "2026-10-30T15:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0063",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日（10/31） 東邦内装 4名 8:00入場 5F 天井ボード",
+      "sentAt": "2026-10-30T16:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0064",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日（10/31） 三光 4名 7F 幹線",
+      "sentAt": "2026-10-30T16:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0065",
+      "roomId": "room-headcount",
+      "senderId": "u-ikeda",
+      "text": "明日（10/31） 明和サッシ 2名 5F 北面サッシ取付",
+      "sentAt": "2026-10-30T16:14:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0066",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "明日10/31は土曜稼働です。午後から雨予報なので、外部作業の会社は早めの片付けをお願いします。",
+      "sentAt": "2026-10-30T16:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0067",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。明日（10/31）の富士空調システムは3名で入場いたします。作業：9F ダクト",
+      "sentAt": "2026-10-30T16:24:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0068",
+      "roomId": "room-co-sash",
+      "senderId": "u-ikeda",
+      "text": "5Fガラス、11/12搬入予定。確定したら搬入調整に流します",
+      "sentAt": "2026-10-30T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0069",
+      "roomId": "room-co-sash",
+      "senderId": "u-sato",
+      "text": "了解です",
+      "sentAt": "2026-10-30T16:35:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0070",
+      "roomId": "room-co-bousui",
+      "senderId": "u-mori",
+      "text": "お疲れ様です。屋上防水の着工は11/16予定で材料手配を進めております。",
+      "sentAt": "2026-10-30T17:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0071",
+      "roomId": "room-co-floor",
+      "senderId": "u-nakajima",
+      "text": "お疲れ様です。4F床の長尺シート、品番最終確定版で発注かけました✨",
+      "sentAt": "2026-10-30T17:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x001",
+      "roomId": "room-headcount",
+      "senderId": "u-takahashi",
+      "text": "人員連絡ありがとうございます。月次の延べ人数の集計にも使わせていただきます。",
+      "sentAt": "2026-10-30T17:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h007",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "10月分の出来高報告、例月どおり11/11（水）17時締切です。今月から、査定根拠として各工種の進捗写真を1枚ずつ添付してください。詳細は10/28のメールのとおりです。",
+      "sentAt": "2026-10-30T17:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h008",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "了解です。佐藤さん中心でまとめます。高橋さん、協力会社の出来高確認書の回収と数量の集計をお願いします。",
+      "sentAt": "2026-10-30T17:35:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-takahashi"
+      ]
+    },
+    {
+      "id": "m-h009",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "承知いたしました。各社の出来高確認書を集めて、11/9（月）までに集計表にまとめます。",
+      "sentAt": "2026-10-30T17:42:00+09:00",
+      "replyToId": "m-h008",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0072",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日土曜稼働です。午後は雨予報、足場上の作業は風に注意してください。",
+      "sentAt": "2026-10-31T07:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0073",
+      "roomId": "room-area2",
+      "senderId": "u-ikeda",
+      "text": "5F北面サッシ 取付完了。シーリング待ちです",
+      "sentAt": "2026-10-31T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0074",
+      "roomId": "room-area2",
+      "senderId": "u-yamaguchi",
+      "text": "了解です😊 2工区の外壁と一緒に12日から入ります！",
+      "sentAt": "2026-10-31T10:42:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0075",
+      "roomId": "room-co-tosou",
+      "senderId": "u-yamaguchi",
+      "text": "お疲れ様です！共用廊下の色見本、来週作りますね🎨",
+      "sentAt": "2026-10-31T11:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0076",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "11/3休工の連絡、全体に流しといて。",
+      "sentAt": "2026-10-31T14:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0077",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "了解です。",
+      "sentAt": "2026-10-31T14:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0078",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "【休工連絡】11/3（火・祝）は作業休工です。15時からの工程定例のみ実施します（2F会議室）。ゲートは閉鎖します。急ぎの作業がある場合は事前に伊藤まで連絡ください。",
+      "sentAt": "2026-10-31T14:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-shimizu",
+            "u-inoue",
+            "u-hayashi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0079",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "月曜 東邦内装 6名 8:00入場 6F LGS 開始",
+      "sentAt": "2026-10-31T15:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0080",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "月曜 三光 5名 7F 幹線・6F EPS",
+      "sentAt": "2026-10-31T15:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0081",
+      "roomId": "room-headcount",
+      "senderId": "u-nakajima",
+      "text": "月曜の山王インテリアは2名です。4F 床材 荷受け",
+      "sentAt": "2026-10-31T15:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0082",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "月曜 青葉設備 3名 8:00入場 2F 給水",
+      "sentAt": "2026-10-31T15:54:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0083",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "月曜 北斗鳶 4名 東面 足場 👍",
+      "sentAt": "2026-10-31T15:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0084",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日の朝礼8:00です。今週は金曜（11/6）に安全パトロールがあります。",
+      "sentAt": "2026-11-02T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0085",
+      "roomId": "room-area1",
+      "senderId": "u-maeda",
+      "text": "2F SPヘッド、本日から取付入ります。",
+      "sentAt": "2026-11-02T08:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0086",
+      "roomId": "room-delivery",
+      "senderId": "u-nakajima",
+      "text": "床材、到着しました。西ゲート前です",
+      "sentAt": "2026-11-02T08:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0087",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "開けます。",
+      "sentAt": "2026-11-02T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j010",
+      "roomId": "room-jimu",
+      "senderId": "u-ito",
+      "text": "11月から、新規入場の方は前日までに作業員名簿と新規入場者アンケートを高橋さんへ提出してください。",
+      "sentAt": "2026-11-02T09:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j011",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "様式は事務所のカウンターと、共有フォルダの「04_安全書類」にございます。",
+      "sentAt": "2026-11-02T09:20:00+09:00",
+      "replyToId": "m-j010",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0088",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "6F LGS下地、本日から入りました。",
+      "sentAt": "2026-11-02T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0089",
+      "roomId": "room-co-gaiko",
+      "senderId": "u-yamashita",
+      "text": "掘削用のバックホウ 11/4 7:30に回送します",
+      "sentAt": "2026-11-02T09:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0090",
+      "roomId": "room-co-gaiko",
+      "senderId": "u-sato",
+      "text": "了解です。北側から入れてください。",
+      "sentAt": "2026-11-02T09:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h010",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "10月の月次報告、港南（10/30 佐藤さん）・大井町とも受領しました。遅れている項目は 11/9 の工務部会で確認します。",
+      "sentAt": "2026-11-02T10:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h011",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "承知いたしました。山本所長にお伝えいたします。",
+      "sentAt": "2026-11-02T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0091",
+      "roomId": "room-co-kucho",
+      "senderId": "u-kimura",
+      "text": "お世話になっております。9Fのダクト材、11/4（水）午前の搬入で予定しております。",
+      "sentAt": "2026-11-02T10:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0092",
+      "roomId": "room-co-kucho",
+      "senderId": "u-sato",
+      "text": "了解です。西ゲートで伊藤に予約入れてください。",
+      "sentAt": "2026-11-02T10:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0093",
+      "roomId": "room-gc",
+      "senderId": "u-kobayashi",
+      "text": "佐藤さん、6F内装の中間検査、11/11（水）15時で入れておきました。",
+      "sentAt": "2026-11-02T11:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j012",
+      "roomId": "room-jimu",
+      "senderId": "u-yamashita",
+      "text": "新栄 名簿 本日中に出します",
+      "sentAt": "2026-11-02T11:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0094",
+      "roomId": "room-gc",
+      "senderId": "u-sato",
+      "text": "了解、ありがとう。",
+      "sentAt": "2026-11-02T11:06:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0095",
+      "roomId": "room-delivery",
+      "senderId": "u-kimura",
+      "text": "11/4（水）9:30 富士空調 9Fダクト材 4t 1台 西ゲートでお願いいたします。",
+      "sentAt": "2026-11-02T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0096",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。",
+      "sentAt": "2026-11-02T11:41:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0097",
+      "roomId": "room-ext",
+      "senderId": "u-matsumoto",
+      "text": "東面足場の盛替え、11/12〜13でやる予定で材料準備しときます",
+      "sentAt": "2026-11-02T13:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0098",
+      "roomId": "room-ext",
+      "senderId": "u-ito",
+      "text": "了解です。盛替え範囲の図、あとで送ります。",
+      "sentAt": "2026-11-02T13:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0099",
+      "roomId": "room-area1",
+      "senderId": "u-nakajima",
+      "text": "4F 長尺シート 搬入完了です。明日休工なので水曜から張ります！",
+      "sentAt": "2026-11-02T14:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0100",
+      "roomId": "room-co-naiso",
+      "senderId": "u-shimizu",
+      "text": "5F天井ボード、北側終わりました。残り南側です。",
+      "sentAt": "2026-11-02T15:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0101",
+      "roomId": "room-co-naiso",
+      "senderId": "u-sato",
+      "text": "お疲れ様です。了解です。",
+      "sentAt": "2026-11-02T15:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0102",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。11/4（水）の富士空調システムは4名で入場いたします。作業：9F ダクト",
+      "sentAt": "2026-11-02T16:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0103",
+      "roomId": "room-headcount",
+      "senderId": "u-yamashita",
+      "text": "11/4（水） 新栄 5名 北側通路 掘削",
+      "sentAt": "2026-11-02T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j013",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "新栄外構様、作業員名簿を受領いたしました。ありがとうございます。",
+      "sentAt": "2026-11-02T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0104",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "11/4（水） 青葉設備 3名 8:00入場 2-3F 給水",
+      "sentAt": "2026-11-02T16:34:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0105",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "11/4（水） 東邦内装 6名 8:00入場 6F LGS",
+      "sentAt": "2026-11-02T16:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0106",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "11/4（水） 三光 5名 7F 幹線",
+      "sentAt": "2026-11-02T16:48:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0107",
+      "roomId": "room-headcount",
+      "senderId": "u-nakajima",
+      "text": "11/4（水）の山王インテリアは3名です。4F 長尺シート",
+      "sentAt": "2026-11-02T16:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0108",
+      "roomId": "room-co-ev",
+      "senderId": "u-abe",
+      "text": "1号機 仮使用の申請書類、本日提出いたしました。",
+      "sentAt": "2026-11-02T17:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0109",
+      "roomId": "room-co-tobi",
+      "senderId": "u-matsumoto",
+      "text": "休工日にすいません。東面ネットの点検だけ2名で入らせてもらえますか",
+      "sentAt": "2026-11-03T08:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0110",
+      "roomId": "room-co-tobi",
+      "senderId": "u-sato",
+      "text": "OKです。伊藤に鍵頼んでおきます。",
+      "sentAt": "2026-11-03T08:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0111",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日の朝礼8:00です。新栄外構さん、本日から北側通路の掘削に入ります。",
+      "sentAt": "2026-11-04T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j014",
+      "roomId": "room-jimu",
+      "senderId": "u-yamaguchi",
+      "text": "高橋さん おはようございます！新しく入る福田の名簿とアンケート、事務所に出しておきました😊",
+      "sentAt": "2026-11-04T07:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j015",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "山口様、受領いたしました。新規入場者教育を受けてから作業に入っていただくよう、お願いいたします。",
+      "sentAt": "2026-11-04T08:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0112",
+      "roomId": "room-ext",
+      "senderId": "u-yamashita",
+      "text": "北側通路 掘削開始します",
+      "sentAt": "2026-11-04T08:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0113",
+      "roomId": "room-area3",
+      "senderId": "u-kimura",
+      "text": "@佐藤 さん お疲れ様です。屋上機器の搬入ルート図いただけますか。揚重計画の検討に使いたいと思います。",
+      "sentAt": "2026-11-04T09:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-h012",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "ありがとうございます。補足があれば佐藤からメールします。",
+      "sentAt": "2026-11-04T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0114",
+      "roomId": "room-delivery",
+      "senderId": "u-kimura",
+      "text": "9Fダクト材、搬入完了しました。",
+      "sentAt": "2026-11-04T09:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h013",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "よろしくお願いします。",
+      "sentAt": "2026-11-04T10:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0115",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "@中村 さん 2Fの衛生器具の品番、承認図と発注書で一部違うので確認お願いします。",
+      "sentAt": "2026-11-04T10:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-nakamura"
+      ]
+    },
+    {
+      "id": "m-0116",
+      "roomId": "room-area2",
+      "senderId": "u-kobayashi",
+      "text": "5F 天井ボード、北側の中間検査OKでした。東邦内装さんありがとうございました。",
+      "sentAt": "2026-11-04T11:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0117",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "ありがとうございます。",
+      "sentAt": "2026-11-04T11:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0118",
+      "roomId": "room-area3",
+      "senderId": "u-sato",
+      "text": "送りました、ご確認ください",
+      "sentAt": "2026-11-04T11:45:00+09:00",
+      "replyToId": "m-0113",
+      "mentionIds": [],
+      "attachments": [
+        {
+          "fileId": "f-route-okujo-pdf",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "id": "m-0119",
+      "roomId": "room-area3",
+      "senderId": "u-kimura",
+      "text": "ありがとうございます。確認いたします。",
+      "sentAt": "2026-11-04T12:10:00+09:00",
+      "replyToId": "m-0118",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0120",
+      "roomId": "room-area1",
+      "senderId": "u-nakamura",
+      "text": "林さん、メーカー回答来ました。承認図どおりでOKです。発注書の方を直してもらいました。",
+      "sentAt": "2026-11-04T13:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0121",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "了解です。ありがとうございます。",
+      "sentAt": "2026-11-04T13:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h014",
+      "roomId": "room-honsha",
+      "senderId": "u-saito",
+      "text": "10/30の本社パトロール、指摘2件とも当日中に是正済みと伺いました。報告書に反映しておきます。",
+      "sentAt": "2026-11-04T14:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h015",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "ありがとうございました。引き続き徹底します。",
+      "sentAt": "2026-11-04T14:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0122",
+      "roomId": "room-area3",
+      "senderId": "u-abe",
+      "text": "1号機 据付、順調に進んでおります。今週中に完了の見込みです。",
+      "sentAt": "2026-11-04T14:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0123",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "11/6の安全パトロール、10:30〜で私が回ります。",
+      "sentAt": "2026-11-04T15:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0124",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "よろしく。",
+      "sentAt": "2026-11-04T15:02:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0125",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 6名 8:00入場 6F LGS",
+      "sentAt": "2026-11-04T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0126",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光 5名 7F 幹線・6F EPS",
+      "sentAt": "2026-11-04T16:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0127",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 2-3F 給水",
+      "sentAt": "2026-11-04T16:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0128",
+      "roomId": "room-headcount",
+      "senderId": "u-yamashita",
+      "text": "明日 新栄 5名 北側通路 掘削",
+      "sentAt": "2026-11-04T16:54:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0129",
+      "roomId": "room-headcount",
+      "senderId": "u-yamaguchi",
+      "text": "明日 光陽塗装 3名でお願いします🙏 2F 共用廊下 中塗り",
+      "sentAt": "2026-11-04T16:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0130",
+      "roomId": "room-co-shobo",
+      "senderId": "u-maeda",
+      "text": "3F 感知器の取付、24日の週からで良いですか",
+      "sentAt": "2026-11-04T17:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0131",
+      "roomId": "room-co-shobo",
+      "senderId": "u-sato",
+      "text": "OKです。天井ボードの進み具合は小林に確認してください。",
+      "sentAt": "2026-11-04T17:25:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0132",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。朝礼8:00です。本日は風が強めです。資材の飛散防止をお願いします。",
+      "sentAt": "2026-11-05T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0133",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "6Fのボード、メーカー欠品で入荷が11/12にずれ込みます。それまでは下地のみ進めます",
+      "sentAt": "2026-11-05T08:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0134",
+      "roomId": "room-area2",
+      "senderId": "u-kobayashi",
+      "text": "了解です。工程表の方は修正しておきます。",
+      "sentAt": "2026-11-05T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0135",
+      "roomId": "room-area2",
+      "senderId": "u-sato",
+      "text": "了解。メーカーの回答書があれば送ってください。",
+      "sentAt": "2026-11-05T09:05:00+09:00",
+      "replyToId": "m-0133",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0136",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "了解です。",
+      "sentAt": "2026-11-05T09:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0137",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "@佐藤 さん、6F EPSの床開口とスリーブ位置、図面と現場で20mmほどズレてます。確認お願いできますか",
+      "sentAt": "2026-11-05T09:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-j016",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "【日報提出のお願い】日報は翌朝9時までに、各工区ルームへの投稿かメールでご提出ください。様式は自由ですが、作業内容・人数・特記事項の記載をお願いいたします。",
+      "sentAt": "2026-11-05T10:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j017",
+      "roomId": "room-jimu",
+      "senderId": "u-hayashi",
+      "text": "了解です。工区ルームに上げます。",
+      "sentAt": "2026-11-05T10:20:00+09:00",
+      "replyToId": "m-j016",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0138",
+      "roomId": "room-ext",
+      "senderId": "u-matsumoto",
+      "text": "東面、強風なんで上の方の作業は午後からにします",
+      "sentAt": "2026-11-05T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j018",
+      "roomId": "room-jimu",
+      "senderId": "u-kimura",
+      "text": "承知いたしました。弊社はExcelでメール送付いたします。",
+      "sentAt": "2026-11-05T10:40:00+09:00",
+      "replyToId": "m-j016",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0139",
+      "roomId": "room-ext",
+      "senderId": "u-ito",
+      "text": "了解です。無理しないでください。",
+      "sentAt": "2026-11-05T10:41:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0140",
+      "roomId": "room-co-floor",
+      "senderId": "u-nakajima",
+      "text": "5Fのクロス品番、承認済みのもので発注かけて大丈夫でしょうか？",
+      "sentAt": "2026-11-05T11:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0141",
+      "roomId": "room-co-floor",
+      "senderId": "u-sato",
+      "text": "はい、それでお願いします。",
+      "sentAt": "2026-11-05T11:08:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0142",
+      "roomId": "room-co-floor",
+      "senderId": "u-nakajima",
+      "text": "ありがとうございます🙇‍♀️",
+      "sentAt": "2026-11-05T11:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0143",
+      "roomId": "room-area3",
+      "senderId": "u-mori",
+      "text": "屋上の下地、確認しました。勾配問題ありません。",
+      "sentAt": "2026-11-05T13:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0144",
+      "roomId": "room-co-eisei",
+      "senderId": "u-hayashi",
+      "text": "3F 排水管の勾配、現場で確認しました。図面どおりで問題ありません。",
+      "sentAt": "2026-11-05T13:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0145",
+      "roomId": "room-co-eisei",
+      "senderId": "u-sato",
+      "text": "ありがとうございます。",
+      "sentAt": "2026-11-05T14:02:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0146",
+      "roomId": "room-gc",
+      "senderId": "u-nakamura",
+      "text": "受変電の切替、11/15（日）で電力会社と確定しそうです。来週の定例で正式に周知します。",
+      "sentAt": "2026-11-05T14:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0147",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "了解。",
+      "sentAt": "2026-11-05T14:33:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x002",
+      "roomId": "room-gc",
+      "senderId": "u-kato",
+      "text": "11/15の切替、決まったら本社への届出もお願いします。様式はポータルの様式集にあります。",
+      "sentAt": "2026-11-05T14:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x003",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "了解です。",
+      "sentAt": "2026-11-05T14:46:00+09:00",
+      "replyToId": "m-x002",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h016",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "受変電設備の切替のため、11/15（日）8:00〜12:00 に全館停電となる見込みです（電力会社と最終調整中）。本社への届出が必要でしたら教えてください。",
+      "sentAt": "2026-11-05T15:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h017",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "停電を伴う作業は、工務部と安全環境部への事前届出が必要です。様式はポータルの『様式集』にあります。11/12（木）までに提出をお願いします。",
+      "sentAt": "2026-11-05T15:20:00+09:00",
+      "replyToId": "m-h016",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h018",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "高橋さん、届出の作成をお願いします。停電の範囲と時間は中村さんに確認してください。",
+      "sentAt": "2026-11-05T15:28:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-takahashi"
+      ]
+    },
+    {
+      "id": "m-0148",
+      "roomId": "room-area1",
+      "senderId": "u-kobayashi",
+      "text": "@清水 さん 3F会議室の天井高さ、設計から CH2600 に変更の指示が来ました。詳細は追って連絡します。",
+      "sentAt": "2026-11-05T15:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-shimizu"
+      ]
+    },
+    {
+      "id": "m-h019",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "承知いたしました。中村さんに確認のうえ作成いたします。",
+      "sentAt": "2026-11-05T15:35:00+09:00",
+      "replyToId": "m-h018",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0149",
+      "roomId": "room-area1",
+      "senderId": "u-shimizu",
+      "text": "了解です。",
+      "sentAt": "2026-11-05T15:38:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0150",
+      "roomId": "room-co-katawaku",
+      "senderId": "u-ishii",
+      "text": "返却分の数量確認書、メールで送りました。",
+      "sentAt": "2026-11-05T16:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0151",
+      "roomId": "room-co-katawaku",
+      "senderId": "u-sato",
+      "text": "確認しました。ありがとうございます。",
+      "sentAt": "2026-11-05T16:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0152",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 6名 8:00入場 6F LGS下地",
+      "sentAt": "2026-11-05T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0153",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光 5名 7F 幹線",
+      "sentAt": "2026-11-05T16:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0154",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "明日 北斗鳶 4名 外部 東面 👍",
+      "sentAt": "2026-11-05T16:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0155",
+      "roomId": "room-headcount",
+      "senderId": "u-yamaguchi",
+      "text": "明日 光陽塗装 3名でお願いします🙏 2F 共用廊下 中塗り",
+      "sentAt": "2026-11-05T16:54:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0156",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 3F 給水",
+      "sentAt": "2026-11-05T16:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0157",
+      "roomId": "room-delivery",
+      "senderId": "u-shimizu",
+      "text": "6Fボード欠品分、入荷日が確定したらここで連絡します。",
+      "sentAt": "2026-11-05T17:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0158",
+      "roomId": "room-headcount",
+      "senderId": "u-maeda",
+      "text": "明日 関東消防 2名 2F SP",
+      "sentAt": "2026-11-05T17:08:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0159",
+      "roomId": "room-co-concrete",
+      "senderId": "u-goto",
+      "text": "お世話になっております。11/13の南側駐輪場 土間打設の配合計画書、メールにてお送りいたしました。",
+      "sentAt": "2026-11-05T17:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0160",
+      "roomId": "room-co-concrete",
+      "senderId": "u-sato",
+      "text": "受領しました。よろしくお願いします。",
+      "sentAt": "2026-11-05T17:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0161",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。本日10:30から安全パトロールです。各社職長は持ち場にいてください。",
+      "sentAt": "2026-11-06T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0162",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "【日報 11/5】三光電設 井上\n7F 幹線ケーブル入線（東側）\n6F EPS 墨出し・アンカー打ち\n人数：5名\n特記：なし",
+      "sentAt": "2026-11-06T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0163",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "【日報 11/5】青葉設備工業 林\n2F 給水管 配管\n3F 排水管 支持金物取付\n人数：3名\n特記事項：特になし",
+      "sentAt": "2026-11-06T07:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x004",
+      "roomId": "room-area2",
+      "senderId": "u-takahashi",
+      "text": "井上様、日報ありがとうございます。",
+      "sentAt": "2026-11-06T08:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x005",
+      "roomId": "room-area1",
+      "senderId": "u-takahashi",
+      "text": "林様、日報ありがとうございます。",
+      "sentAt": "2026-11-06T08:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0164",
+      "roomId": "room-ext",
+      "senderId": "u-fujita",
+      "text": "11月後半の25t、作業半径の図面いただければ機種確定します",
+      "sentAt": "2026-11-06T08:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0165",
+      "roomId": "room-ext",
+      "senderId": "u-ito",
+      "text": "富士空調さんの揚重計画が出たら送ります。",
+      "sentAt": "2026-11-06T08:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0166",
+      "roomId": "room-area2",
+      "senderId": "u-nakamura",
+      "text": "7F天井内、ダクトと電気ラックが干渉してます。三光さん、富士空調さん確認お願いします。",
+      "sentAt": "2026-11-06T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-inoue",
+        "u-kimura"
+      ]
+    },
+    {
+      "id": "m-0167",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "見ました。ラック100下げで逃げます",
+      "sentAt": "2026-11-06T09:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0168",
+      "roomId": "room-area2",
+      "senderId": "u-kimura",
+      "text": "承知しました。ダクトはそのままで進めます。",
+      "sentAt": "2026-11-06T10:02:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0169",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "本日の安全パトロールの指摘事項を上げます。是正したら写真付きでこの投稿に返信してください。",
+      "sentAt": "2026-11-06T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0170",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "【指摘①】2F 東側　床開口部の養生不足　北斗鳶工業",
+      "sentAt": "2026-11-06T10:34:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-matsumoto"
+      ],
+      "attachments": [
+        {
+          "fileId": "f-patrol-1106-01",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0171",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "【指摘②】3F 廊下　消火器の前に資材を仮置き　東邦内装",
+      "sentAt": "2026-11-06T10:41:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-shimizu"
+      ],
+      "attachments": [
+        {
+          "fileId": "f-patrol-1106-02",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0172",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "【指摘③】6F　脚立の天板に乗って作業　三光電設",
+      "sentAt": "2026-11-06T10:49:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-inoue"
+      ],
+      "attachments": [
+        {
+          "fileId": "f-patrol-1106-03",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0173",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "【指摘④】外部 東面 5層目　足場の手すりが外れている　北斗鳶工業",
+      "sentAt": "2026-11-06T10:56:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-matsumoto"
+      ],
+      "attachments": [
+        {
+          "fileId": "f-patrol-1106-04",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0174",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "【指摘⑤】1F 電気室前　通路に仮設ケーブルが散乱　三光電設",
+      "sentAt": "2026-11-06T11:04:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-inoue"
+      ],
+      "attachments": [
+        {
+          "fileId": "f-patrol-1106-05",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0175",
+      "roomId": "room-patrol",
+      "senderId": "u-ito",
+      "text": "【指摘⑥】屋上　ガスボンベの転倒防止なし　富士空調システム",
+      "sentAt": "2026-11-06T11:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-kimura"
+      ],
+      "attachments": [
+        {
+          "fileId": "f-patrol-1106-06",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0176",
+      "roomId": "room-co-tosou",
+      "senderId": "u-yamaguchi",
+      "text": "佐藤さん お疲れ様です！共用廊下の塗装色見本、承認いただけますか🙏 見本は現場事務所の棚に置いてあります！",
+      "sentAt": "2026-11-06T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0177",
+      "roomId": "room-area1",
+      "senderId": "u-yamaguchi",
+      "text": "2F共用廊下 中塗り（東側）終わりました😊 上塗りの色見本、承認待ちです！",
+      "sentAt": "2026-11-06T12:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0178",
+      "roomId": "room-patrol",
+      "senderId": "u-shimizu",
+      "text": "【是正②】是正しました。資材は3F倉庫へ移動済みです。",
+      "sentAt": "2026-11-06T13:05:00+09:00",
+      "replyToId": "m-0171",
+      "mentionIds": [],
+      "attachments": [
+        {
+          "fileId": "f-zesei-1106-02",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0179",
+      "roomId": "room-delivery",
+      "senderId": "u-goto",
+      "text": "11/13（金）の打設、生コン車の台数と時間は改めてメールでご連絡いたします。",
+      "sentAt": "2026-11-06T13:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j019",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "【請求書の締めについて】11月分の請求書は11/25（水）必着でお願いいたします。出来高確認書の写しを添付してください。",
+      "sentAt": "2026-11-06T14:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0180",
+      "roomId": "room-patrol",
+      "senderId": "u-matsumoto",
+      "text": "【是正①】是正しました",
+      "sentAt": "2026-11-06T14:20:00+09:00",
+      "replyToId": "m-0170",
+      "mentionIds": [],
+      "attachments": [
+        {
+          "fileId": "f-zesei-1106-01",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-j020",
+      "roomId": "room-jimu",
+      "senderId": "u-ishii",
+      "text": "承知しました。郵送でも大丈夫でしょうか。",
+      "sentAt": "2026-11-06T14:30:00+09:00",
+      "replyToId": "m-j019",
+      "mentionIds": []
+    },
+    {
+      "id": "m-j021",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "石井様、郵送でも問題ございません。25日必着でお願いいたします。",
+      "sentAt": "2026-11-06T14:42:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j022",
+      "roomId": "room-jimu",
+      "senderId": "u-goto",
+      "text": "承知いたしました。納品書の写しも同封いたします。",
+      "sentAt": "2026-11-06T15:00:00+09:00",
+      "replyToId": "m-j019",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0181",
+      "roomId": "room-area1",
+      "senderId": "u-shimizu",
+      "text": "@佐藤 さん 3F会議室の天井高さ変更（CH2700→2600）の施工図、最新版いただけますか？",
+      "sentAt": "2026-11-06T15:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-0182",
+      "roomId": "room-co-sash",
+      "senderId": "u-ikeda",
+      "text": "5Fガラス 工場出荷 11/11です",
+      "sentAt": "2026-11-06T15:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0183",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "パトロール指摘6件、安全パトロールのルームに上げました。",
+      "sentAt": "2026-11-06T16:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0184",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "是正の確認、頼むね。",
+      "sentAt": "2026-11-06T16:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0185",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日（土） 東邦内装 4名 8:00入場 6F LGS下地",
+      "sentAt": "2026-11-06T16:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0186",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日（土） 三光 4名 7F 幹線",
+      "sentAt": "2026-11-06T16:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0187",
+      "roomId": "room-headcount",
+      "senderId": "u-yamashita",
+      "text": "明日（土） 新栄 4名 北側通路 掘削",
+      "sentAt": "2026-11-06T16:54:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0188",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "明日（土） 北斗鳶 3名 外部 東面 👍",
+      "sentAt": "2026-11-06T17:04:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0189",
+      "roomId": "room-co-denki",
+      "senderId": "u-inoue",
+      "text": "幹線ケーブルのドラム、追加分発注しました。入る日決まったら言います",
+      "sentAt": "2026-11-06T17:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0190",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "【日報 11/6】三光電設 井上\n7F 幹線ケーブル入線（西側）\n7F 天井内ラック 高さ調整（ダクト干渉）\n人数：5名\n特記：パトロール指摘③⑤対応中",
+      "sentAt": "2026-11-07T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0191",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "【日報 11/6】青葉設備工業 林\n3F 給水管 配管\n2F 衛生器具 搬入・仮置き\n人数：3名\n特記事項：特になし",
+      "sentAt": "2026-11-07T07:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0192",
+      "roomId": "room-co-tosou",
+      "senderId": "u-sato",
+      "text": "承認済みです。このまま進めてください",
+      "sentAt": "2026-11-07T08:15:00+09:00",
+      "replyToId": "m-0176",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0193",
+      "roomId": "room-co-tosou",
+      "senderId": "u-yamaguchi",
+      "text": "ありがとうございます😊 この色で上塗りの準備進めます！",
+      "sentAt": "2026-11-07T08:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0194",
+      "roomId": "room-patrol",
+      "senderId": "u-inoue",
+      "text": "【是正③】朝礼で周知しました。脚立は可搬式作業台に切り替えてます",
+      "sentAt": "2026-11-07T08:40:00+09:00",
+      "replyToId": "m-0172",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0195",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "@佐藤 さん お疲れ様です。2-3F給水管の耐圧試験、立会いの日時を決めたいです。来週前半でご都合いかがでしょうか。",
+      "sentAt": "2026-11-07T09:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-0196",
+      "roomId": "room-area2",
+      "senderId": "u-ikeda",
+      "text": "5F 東面 サッシ 調整完了",
+      "sentAt": "2026-11-07T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0197",
+      "roomId": "room-patrol",
+      "senderId": "u-inoue",
+      "text": "【是正⑤】是正しました。ケーブルは壁際に寄せて養生してます",
+      "sentAt": "2026-11-07T10:15:00+09:00",
+      "replyToId": "m-0174",
+      "mentionIds": [],
+      "attachments": [
+        {
+          "fileId": "f-zesei-1107-05",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "m-0198",
+      "roomId": "room-area1",
+      "senderId": "u-sato",
+      "text": "11/10 14時でお願いします",
+      "sentAt": "2026-11-07T11:30:00+09:00",
+      "replyToId": "m-0195",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0199",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "了解です",
+      "sentAt": "2026-11-07T11:40:00+09:00",
+      "replyToId": "m-0198",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0200",
+      "roomId": "room-gc",
+      "senderId": "u-kobayashi",
+      "text": "6F内装のボード欠品の件、工程表に反映しました（終わり11/18）。",
+      "sentAt": "2026-11-07T13:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0201",
+      "roomId": "room-gc",
+      "senderId": "u-sato",
+      "text": "ありがとう。",
+      "sentAt": "2026-11-07T13:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x006",
+      "roomId": "room-gc",
+      "senderId": "u-kato",
+      "text": "工程表見ました。6F内装の遅れ、経緯を本社ルームの方に一度上げてもらえますか。",
+      "sentAt": "2026-11-07T13:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x007",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "了解です。午後に上げます。",
+      "sentAt": "2026-11-07T13:28:00+09:00",
+      "replyToId": "m-x006",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h020",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "【報告】2工区 6F 内装（東邦内装）のボードがメーカー欠品で、入荷が11/12にずれ込みました。それまでは下地を先行しています。6F 内装の終わりは 11/13 → 11/18 の見込みで、工程表に反映済みです。",
+      "sentAt": "2026-11-07T14:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0202",
+      "roomId": "room-area2",
+      "senderId": "u-yamaguchi",
+      "text": "5F北面のサッシ廻り、シーリングの取り合い確認しました😊 外壁は12日から入ります！",
+      "sentAt": "2026-11-07T14:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h021",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "報告ありがとうございます。11/19の施主検査には影響なさそうですか？",
+      "sentAt": "2026-11-07T14:30:00+09:00",
+      "replyToId": "m-h020",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h022",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "6Fは11/18に終わる見込みなので、検査には間に合わせます。メーカーの回答書が届いたら共有します。",
+      "sentAt": "2026-11-07T14:45:00+09:00",
+      "replyToId": "m-h021",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0203",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "月曜（11/9） 東邦内装 6名 8:00入場 6F LGS下地",
+      "sentAt": "2026-11-07T15:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0204",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "月曜（11/9） 三光 5名 7F 幹線",
+      "sentAt": "2026-11-07T15:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0205",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。月曜（11/9）の富士空調システムは4名で入場いたします。作業：9F ダクト・屋上 架台 墨出し",
+      "sentAt": "2026-11-07T15:14:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0206",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "月曜（11/9） 青葉設備 3名 8:00入場 2-3F 給水 耐圧準備",
+      "sentAt": "2026-11-07T15:24:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0207",
+      "roomId": "room-headcount",
+      "senderId": "u-yamashita",
+      "text": "月曜（11/9） 新栄 5名 北側通路 掘削",
+      "sentAt": "2026-11-07T15:28:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0208",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "月曜（11/9） 北斗鳶 4名 東面 足場 👍",
+      "sentAt": "2026-11-07T15:38:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0209",
+      "roomId": "room-headcount",
+      "senderId": "u-ikeda",
+      "text": "月曜（11/9） 明和サッシ 2名 5F サッシ",
+      "sentAt": "2026-11-07T15:42:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0210",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。朝礼8:00です。明日11/10の15時から工程定例です（2F会議室）。",
+      "sentAt": "2026-11-09T07:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0211",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "@佐藤 さん、来週の施主検査（11/19）の段取り案、まとめておいてもらえる？",
+      "sentAt": "2026-11-09T08:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-0212",
+      "roomId": "room-area1",
+      "senderId": "u-kobayashi",
+      "text": "3F 事務室の天井、点検口の位置確認OKです。会議室だけは高さ変更があるので触らないでください。",
+      "sentAt": "2026-11-09T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j023",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "【新規入場者教育のご案内】11/12（木）13:00〜14:00、事務所2Fで新規入場者教育を行います（講師：伊藤）。受講される方は、前日（11/11）17時までに作業員名簿と健康診断書の写しをご提出ください。",
+      "sentAt": "2026-11-09T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x008",
+      "roomId": "room-all",
+      "senderId": "u-takahashi",
+      "text": "【新規入場者教育】11/12（木）13:00〜14:00、事務所2Fで行います。受講される方の書類は前日17時までにご提出ください。詳細は「事務連絡」ルームをご覧ください。",
+      "sentAt": "2026-11-09T09:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0213",
+      "roomId": "room-area1",
+      "senderId": "u-shimizu",
+      "text": "了解です。会議室はそのままにしておきます。",
+      "sentAt": "2026-11-09T09:08:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j024",
+      "roomId": "room-jimu",
+      "senderId": "u-ito",
+      "text": "よろしくお願いします。保護具は各自持参でお願いします。",
+      "sentAt": "2026-11-09T09:10:00+09:00",
+      "replyToId": "m-j023",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0214",
+      "roomId": "room-area3",
+      "senderId": "u-mori",
+      "text": "@佐藤 さん お疲れ様です。屋上防水の着工前打合せ、日程いかがでしょう",
+      "sentAt": "2026-11-09T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-h023",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "@山本 さん 11/19（木）の施主検査、メールでお伝えしたとおり私も立ち会います。準備状況を来週前半に一度共有いただけますか。",
+      "sentAt": "2026-11-09T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-yamamoto"
+      ]
+    },
+    {
+      "id": "m-x009",
+      "roomId": "room-gc",
+      "senderId": "u-takahashi",
+      "text": "伊藤さん、11/12 13時からの新規入場者教育、事務所2Fを押さえました。",
+      "sentAt": "2026-11-09T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-ito"
+      ]
+    },
+    {
+      "id": "m-x010",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "ありがとうございます。資料はこちらで用意します。",
+      "sentAt": "2026-11-09T09:34:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h024",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "承知しました。段取り案は今、佐藤さんにまとめてもらっています。まとまり次第こちらで共有します。",
+      "sentAt": "2026-11-09T09:45:00+09:00",
+      "replyToId": "m-h023",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h025",
+      "roomId": "room-honsha",
+      "senderId": "u-saito",
+      "text": "年末安全大会（12/4）で、港南作業所に無災害の取り組みの事例発表（10分程度）をお願いできないでしょうか。",
+      "sentAt": "2026-11-09T10:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0215",
+      "roomId": "room-area1",
+      "senderId": "u-maeda",
+      "text": "3F 感知器の割付図、小林さんに提出しました。",
+      "sentAt": "2026-11-09T10:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0216",
+      "roomId": "room-ext",
+      "senderId": "u-yamashita",
+      "text": "北側通路、掘削したら既設の排水管が図面と50cmズレてました。設計確認待ちで一旦止めます",
+      "sentAt": "2026-11-09T10:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h026",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "承知しました。伊藤に準備させます。",
+      "sentAt": "2026-11-09T10:20:00+09:00",
+      "replyToId": "m-h025",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h027",
+      "roomId": "room-honsha",
+      "senderId": "u-saito",
+      "text": "ありがとうございます。出欠のご回答は、別途メールの方でお願いします。",
+      "sentAt": "2026-11-09T10:24:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0217",
+      "roomId": "room-ext",
+      "senderId": "u-sato",
+      "text": "設計に確認します",
+      "sentAt": "2026-11-09T10:35:00+09:00",
+      "replyToId": "m-0216",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0218",
+      "roomId": "room-area3",
+      "senderId": "u-sato",
+      "text": "11/13 10時で調整済みです",
+      "sentAt": "2026-11-09T10:50:00+09:00",
+      "replyToId": "m-0214",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0219",
+      "roomId": "room-area3",
+      "senderId": "u-mori",
+      "text": "ありがとうございます。承知しました。",
+      "sentAt": "2026-11-09T10:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0220",
+      "roomId": "room-patrol",
+      "senderId": "u-matsumoto",
+      "text": "④は今週中にやります",
+      "sentAt": "2026-11-09T11:00:00+09:00",
+      "replyToId": "m-0173",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0221",
+      "roomId": "room-co-shobo",
+      "senderId": "u-maeda",
+      "text": "消防検査、2月中旬で日程の調整お願いします",
+      "sentAt": "2026-11-09T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h028",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "残業申請の様式変更、先ほどメールでご案内しました。来週分の申請から新様式でお願いします。新様式はポータルの「様式集」にあります。",
+      "sentAt": "2026-11-09T11:35:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h029",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "承知いたしました。作業所内に周知いたします。",
+      "sentAt": "2026-11-09T11:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0222",
+      "roomId": "room-co-shobo",
+      "senderId": "u-sato",
+      "text": "2/16（火）で所轄と調整済みです。詳細は後日送ります。",
+      "sentAt": "2026-11-09T13:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0223",
+      "roomId": "room-co-shobo",
+      "senderId": "u-maeda",
+      "text": "了解しました",
+      "sentAt": "2026-11-09T13:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0224",
+      "roomId": "room-area2",
+      "senderId": "u-kobayashi",
+      "text": "6F下地の進捗確認しました。ボード入ればすぐ張れる状態ですね。",
+      "sentAt": "2026-11-09T13:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0225",
+      "roomId": "room-area2",
+      "senderId": "u-shimizu",
+      "text": "はい、下地はほぼ終わってます。",
+      "sentAt": "2026-11-09T13:36:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j025",
+      "roomId": "room-jimu",
+      "senderId": "u-shimizu",
+      "text": "東邦内装から2名受講させてください。6Fボード張りの応援です。書類は明日出します。",
+      "sentAt": "2026-11-09T13:40:00+09:00",
+      "replyToId": "m-j023",
+      "mentionIds": []
+    },
+    {
+      "id": "m-j026",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "清水様、承知いたしました。",
+      "sentAt": "2026-11-09T13:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0226",
+      "roomId": "room-co-kucho",
+      "senderId": "u-kimura",
+      "text": "お世話になっております。11/18の室外機揚重のクレーン、佐藤さん経由で大江戸クレーンさんに仮押さえいただいている件、引き続きよろしくお願いいたします。",
+      "sentAt": "2026-11-09T14:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0227",
+      "roomId": "room-co-kucho",
+      "senderId": "u-sato",
+      "text": "了解です。確定はもう少し待ってください。",
+      "sentAt": "2026-11-09T14:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0228",
+      "roomId": "room-co-crane",
+      "senderId": "u-fujita",
+      "text": "11/18 25t 仮押さえ入れました",
+      "sentAt": "2026-11-09T14:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0229",
+      "roomId": "room-co-crane",
+      "senderId": "u-sato",
+      "text": "ありがとうございます。",
+      "sentAt": "2026-11-09T14:41:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j027",
+      "roomId": "room-jimu",
+      "senderId": "u-inoue",
+      "text": "三光も1名お願いします",
+      "sentAt": "2026-11-09T15:10:00+09:00",
+      "replyToId": "m-j023",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0230",
+      "roomId": "room-delivery",
+      "senderId": "u-mori",
+      "text": "お疲れ様です。11/16（月）8:30 日進防水 防水材 4tユニック1台、北側搬入口でお願いします。",
+      "sentAt": "2026-11-09T15:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j028",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "井上様、承知いたしました。書類のご提出をお願いいたします。",
+      "sentAt": "2026-11-09T15:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0231",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。",
+      "sentAt": "2026-11-09T15:31:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0232",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "森田設計に北側通路の排水管の件、図面送っておきました。",
+      "sentAt": "2026-11-09T16:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0233",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "了解。回答来たら佐藤さんから山下さんに流してもらって。",
+      "sentAt": "2026-11-09T16:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0234",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 6名 8:00入場 6F LGS・5F 天井",
+      "sentAt": "2026-11-09T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0235",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光 5名 7F 幹線・6F EPS",
+      "sentAt": "2026-11-09T16:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0236",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。明日の富士空調システムは4名で入場いたします。作業：屋上 室外機架台",
+      "sentAt": "2026-11-09T16:44:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0237",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 2-3F 耐圧試験",
+      "sentAt": "2026-11-09T16:54:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0238",
+      "roomId": "room-headcount",
+      "senderId": "u-yamaguchi",
+      "text": "明日 光陽塗装 3名でお願いします🙏 2F 共用廊下 中塗り",
+      "sentAt": "2026-11-09T16:58:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0239",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "明日 北斗鳶 4名 東面 足場 👍",
+      "sentAt": "2026-11-09T17:08:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0240",
+      "roomId": "room-co-tobi",
+      "senderId": "u-matsumoto",
+      "text": "盛替え用の材料、11/11の夕方に入れます",
+      "sentAt": "2026-11-09T17:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0241",
+      "roomId": "room-headcount",
+      "senderId": "u-ikeda",
+      "text": "明日 明和サッシ 2名 5F サッシ調整",
+      "sentAt": "2026-11-09T17:12:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0242",
+      "roomId": "room-co-tobi",
+      "senderId": "u-sato",
+      "text": "了解です。",
+      "sentAt": "2026-11-09T17:18:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0243",
+      "roomId": "room-headcount",
+      "senderId": "u-nakajima",
+      "text": "明日の山王インテリアは2名です。4F 長尺シート",
+      "sentAt": "2026-11-09T17:22:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0244",
+      "roomId": "room-co-tekkin",
+      "senderId": "u-okada",
+      "text": "10月分の請求書、郵送しました。",
+      "sentAt": "2026-11-09T17:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0245",
+      "roomId": "room-co-tekkin",
+      "senderId": "u-sato",
+      "text": "了解です。届いたら確認します。",
+      "sentAt": "2026-11-09T17:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h030",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "10月分 出来高の数量集計表と、協力会社各社の出来高確認書がそろいました。佐藤さんにお渡ししております。",
+      "sentAt": "2026-11-09T17:40:00+09:00",
+      "replyToId": "m-h008",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0246",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "【日報 11/9】三光電設 井上\n7F 幹線ケーブル入線\n6F EPS 支持金物 墨出し\n人数：5名\n特記：なし",
+      "sentAt": "2026-11-10T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0247",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。朝礼8:00です。本日15時から工程定例、主要協力会社の方は2F会議室へお願いします。",
+      "sentAt": "2026-11-10T07:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0248",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "【日報 11/9】青葉設備工業 林\n2-3F 給水管 耐圧試験 準備（水張り）\n3F 排水管 配管\n人数：3名\n特記事項：本日（11/10）14時 耐圧試験（佐藤さん立会い）",
+      "sentAt": "2026-11-10T07:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x011",
+      "roomId": "room-area2",
+      "senderId": "u-takahashi",
+      "text": "井上様、日報ありがとうございます。",
+      "sentAt": "2026-11-10T08:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0249",
+      "roomId": "room-area1",
+      "senderId": "u-nakajima",
+      "text": "4F 長尺シート、張り終わりました！養生してあります✨",
+      "sentAt": "2026-11-10T08:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0250",
+      "roomId": "room-area1",
+      "senderId": "u-kobayashi",
+      "text": "ありがとうございます。午後確認します。",
+      "sentAt": "2026-11-10T08:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0251",
+      "roomId": "room-co-denki",
+      "senderId": "u-inoue",
+      "text": "追加のケーブルドラム、今週後半に入る予定っす。日にち決まったらまた言います",
+      "sentAt": "2026-11-10T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0252",
+      "roomId": "room-co-denki",
+      "senderId": "u-sato",
+      "text": "了解。搬入調整にも流しといてください。",
+      "sentAt": "2026-11-10T09:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0253",
+      "roomId": "room-delivery",
+      "senderId": "u-shimizu",
+      "text": "お疲れ様です。6Fボード欠品分、入荷確定しました。11/12（木）10:00に西ゲートから、10t平車1台で入れます。石膏ボードです。荷揚げは仮設EVでお願いしたいです。",
+      "sentAt": "2026-11-10T09:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0254",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。西ゲートと仮設EV、10時〜押さえました。",
+      "sentAt": "2026-11-10T09:41:00+09:00",
+      "replyToId": "m-0253",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0255",
+      "roomId": "room-ext",
+      "senderId": "u-sato",
+      "text": "森田設計から回答あり、ルート変更で進めてください",
+      "sentAt": "2026-11-10T10:15:00+09:00",
+      "replyToId": "m-0216",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0256",
+      "roomId": "room-ext",
+      "senderId": "u-yamashita",
+      "text": "了解、11/13から再開します",
+      "sentAt": "2026-11-10T10:25:00+09:00",
+      "replyToId": "m-0255",
+      "mentionIds": []
+    },
+    {
+      "id": "m-j029",
+      "roomId": "room-jimu",
+      "senderId": "u-shimizu",
+      "text": "新規2名分の名簿と健康診断書、事務所に提出しました。",
+      "sentAt": "2026-11-10T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j030",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "清水様、受領いたしました。ありがとうございます。",
+      "sentAt": "2026-11-10T10:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0257",
+      "roomId": "room-area3",
+      "senderId": "u-kimura",
+      "text": "屋上 室外機架台、本日据付開始いたしました。",
+      "sentAt": "2026-11-10T11:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h031",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "11/13（金）9:00〜11:30 で港南の現場を巡回させてください。案内は不要です。事務所に寄ってから回ります。",
+      "sentAt": "2026-11-10T11:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0258",
+      "roomId": "room-ext",
+      "senderId": "u-yamashita",
+      "text": "北側通路の仮囲い移設、日程決まりましたら連絡ください",
+      "sentAt": "2026-11-10T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h032",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "承知しました。当日は同行できませんが、事務所に高橋がおりますので声をかけてください。",
+      "sentAt": "2026-11-10T11:35:00+09:00",
+      "replyToId": "m-h031",
+      "mentionIds": []
+    },
+    {
+      "id": "m-h033",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "承知いたしました。ヘルメットと入場者カードをご用意しておきます。",
+      "sentAt": "2026-11-10T11:42:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0259",
+      "roomId": "room-co-concrete",
+      "senderId": "u-goto",
+      "text": "11/13の出荷時間につきましては、明日メールにてご連絡いたします。",
+      "sentAt": "2026-11-10T13:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0260",
+      "roomId": "room-co-bousui",
+      "senderId": "u-mori",
+      "text": "11/13の打合せ、防水仕様書と工程案を持参いたします。",
+      "sentAt": "2026-11-10T13:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0261",
+      "roomId": "room-co-bousui",
+      "senderId": "u-sato",
+      "text": "よろしくお願いします。",
+      "sentAt": "2026-11-10T13:42:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0262",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "これから耐圧試験の準備入ります。",
+      "sentAt": "2026-11-10T13:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j031",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "【安全書類】資格証の写しの有効期限が10月末で切れている会社様には、個別にご連絡しております。お手数ですが、差し替えをお願いいたします。",
+      "sentAt": "2026-11-10T14:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0263",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "耐圧試験、完了しました。立会いありがとうございました。",
+      "sentAt": "2026-11-10T14:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j032",
+      "roomId": "room-jimu",
+      "senderId": "u-abe",
+      "text": "お世話になっております。ミツワ昇降機の作業員名簿の更新版を、本日メールにてお送りいたしました。",
+      "sentAt": "2026-11-10T16:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j033",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "阿部様、受領いたしました。ありがとうございます。",
+      "sentAt": "2026-11-10T16:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0264",
+      "roomId": "room-delivery",
+      "senderId": "u-abe",
+      "text": "お世話になっております。11/14（土）9:00 ミツワ昇降機 EV部材 2t 1台、西ゲートでお願いいたします。",
+      "sentAt": "2026-11-10T16:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0265",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。",
+      "sentAt": "2026-11-10T16:28:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0266",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "定例おつかれ。議事録用に文字起こしをストレージに上げといて。",
+      "sentAt": "2026-11-10T16:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0267",
+      "roomId": "room-gc",
+      "senderId": "u-ito",
+      "text": "18時半くらいに上げます。",
+      "sentAt": "2026-11-10T16:35:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0268",
+      "roomId": "room-delivery",
+      "senderId": "u-nakajima",
+      "text": "お疲れ様です！来週11/17（火）9:00 山王インテリア 6F用床材 2t 1台、西ゲートで予約お願いします🙇‍♀️",
+      "sentAt": "2026-11-10T16:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0269",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。予約入れました。",
+      "sentAt": "2026-11-10T16:52:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0270",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 6名 8:00入場 6F LGS・5F 天井",
+      "sentAt": "2026-11-10T16:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0271",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光 5名 7F 幹線",
+      "sentAt": "2026-11-10T17:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0272",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。明日の富士空調システムは4名で入場いたします。作業：屋上 室外機架台",
+      "sentAt": "2026-11-10T17:09:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0273",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 3F 保温",
+      "sentAt": "2026-11-10T17:19:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0274",
+      "roomId": "room-headcount",
+      "senderId": "u-yamaguchi",
+      "text": "明日は光陽塗装はお休みです🙏",
+      "sentAt": "2026-11-10T17:23:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0275",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "明日 北斗鳶 4名 盛替え材 荷受け・東面 👍",
+      "sentAt": "2026-11-10T17:33:00+09:00",
+      "replyToId": null,
+      "mentionIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-ito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-0276",
+      "roomId": "room-headcount",
+      "senderId": "u-ikeda",
+      "text": "明日 明和サッシ 2名 5F ガラス受入準備",
+      "sentAt": "2026-11-10T17:37:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0277",
+      "roomId": "room-all",
+      "senderId": "u-ito",
+      "text": "おはようございます。朝礼8:00です。本日は曇り、風は弱めです。",
+      "sentAt": "2026-11-11T07:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0278",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "【日報 11/10】三光電設 井上\n7F 幹線ケーブル入線\n6F EPS 支持金物取付\n人数：5名\n特記：なし",
+      "sentAt": "2026-11-11T07:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x012",
+      "roomId": "room-area2",
+      "senderId": "u-takahashi",
+      "text": "井上様、日報ありがとうございます。",
+      "sentAt": "2026-11-11T07:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0279",
+      "roomId": "room-area1",
+      "senderId": "u-hayashi",
+      "text": "【日報 11/10】青葉設備工業 林\n2-3F 給水管 耐圧試験（立会い：佐藤さん）合格\n2-3F 給水管 保温材巻き\n人数：3名\n特記事項：特になし",
+      "sentAt": "2026-11-11T07:55:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-x013",
+      "roomId": "room-area1",
+      "senderId": "u-takahashi",
+      "text": "林様、日報ありがとうございます。",
+      "sentAt": "2026-11-11T08:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0280",
+      "roomId": "room-gc",
+      "senderId": "u-yamamoto",
+      "text": "@佐藤 さん 今日中に来週の残業申請まとめて加藤さんに送っといて",
+      "sentAt": "2026-11-11T08:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-x014",
+      "roomId": "room-area3",
+      "senderId": "u-takahashi",
+      "text": "木村様、日報（Excel）をメールで受領いたしました。ありがとうございます。",
+      "sentAt": "2026-11-11T08:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j034",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "三光電設 井上様、明日の新規入場者教育を受講される方の書類を、本日17時までにご提出をお願いいたします。",
+      "sentAt": "2026-11-11T08:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-inoue"
+      ]
+    },
+    {
+      "id": "m-0281",
+      "roomId": "room-gc",
+      "senderId": "u-kobayashi",
+      "text": "@佐藤 さん 5F天井 完了検査のチェックリスト、11/13（金）までに目を通してもらえますか？",
+      "sentAt": "2026-11-11T08:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-h034",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "11/15の全館停電の届出、下書きを中村さんに確認いただいています。明日中に提出いたします。",
+      "sentAt": "2026-11-11T08:50:00+09:00",
+      "replyToId": "m-h017",
+      "mentionIds": []
+    },
+    {
+      "id": "m-x015",
+      "roomId": "room-gc",
+      "senderId": "u-takahashi",
+      "text": "残業申請の新様式、印刷して佐藤さんの机に置いておきました。",
+      "sentAt": "2026-11-11T09:00:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h035",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "ありがとうございます。様式の「影響範囲」の欄に、仮設照明と仮設EVの停止も書いておいてください。",
+      "sentAt": "2026-11-11T09:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h036",
+      "roomId": "room-honsha",
+      "senderId": "u-takahashi",
+      "text": "承知いたしました。",
+      "sentAt": "2026-11-11T09:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0282",
+      "roomId": "room-area1",
+      "senderId": "u-nakajima",
+      "text": "4F 床の養生、明日まで残しておきます！",
+      "sentAt": "2026-11-11T09:15:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j035",
+      "roomId": "room-jimu",
+      "senderId": "u-inoue",
+      "text": "すいません、昼までに出します",
+      "sentAt": "2026-11-11T09:20:00+09:00",
+      "replyToId": "m-j034",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0283",
+      "roomId": "room-headcount",
+      "senderId": "u-shimizu",
+      "text": "明日 東邦内装 6名 8:00入場 6F内装（ボード搬入・張り）",
+      "sentAt": "2026-11-11T09:32:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0284",
+      "roomId": "room-headcount",
+      "senderId": "u-inoue",
+      "text": "明日 三光電設 5名 8:00入場 7F・6F 幹線",
+      "sentAt": "2026-11-11T09:48:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0285",
+      "roomId": "room-co-ev",
+      "senderId": "u-abe",
+      "text": "お世話になっております。12/4のEV性能検査につきまして、立会いの方のお名前を11/27（金）までにご連絡いただけますでしょうか。",
+      "sentAt": "2026-11-11T09:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0286",
+      "roomId": "room-headcount",
+      "senderId": "u-hayashi",
+      "text": "明日 青葉設備 3名 8:00入場 3F 給水管 保温",
+      "sentAt": "2026-11-11T10:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0287",
+      "roomId": "room-delivery",
+      "senderId": "u-ikeda",
+      "text": "明日13時 5Fガラス 4t1台 北側搬入口から入ります。よろしく",
+      "sentAt": "2026-11-11T10:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0288",
+      "roomId": "room-headcount",
+      "senderId": "u-kimura",
+      "text": "お疲れ様です。明日11/12の富士空調システムは4名で入場いたします。作業：屋上 室外機架台据付",
+      "sentAt": "2026-11-11T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h037",
+      "roomId": "room-honsha",
+      "senderId": "u-kato",
+      "text": "6Fのボード、予定どおり明日入荷で変わりないですか？",
+      "sentAt": "2026-11-11T10:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0289",
+      "roomId": "room-delivery",
+      "senderId": "u-ito",
+      "text": "了解です。北側、13時〜押さえました。",
+      "sentAt": "2026-11-11T10:31:00+09:00",
+      "replyToId": "m-0287",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0290",
+      "roomId": "room-area3",
+      "senderId": "u-abe",
+      "text": "2号機の据付、11/16（月）から入らせていただきます。",
+      "sentAt": "2026-11-11T10:45:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-h038",
+      "roomId": "room-honsha",
+      "senderId": "u-yamamoto",
+      "text": "明日10時に搬入予定で、変更ありません。",
+      "sentAt": "2026-11-11T10:45:00+09:00",
+      "replyToId": "m-h037",
+      "mentionIds": []
+    },
+    {
+      "id": "m-0291",
+      "roomId": "room-co-kucho",
+      "senderId": "u-kimura",
+      "text": "佐藤さん お世話になっております。本日中にクレーン使用日（11/18）の確定回答をいただけますと助かります。大江戸クレーンさんへの本手配の締めが本日とのことです。",
+      "sentAt": "2026-11-11T11:05:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-0292",
+      "roomId": "room-headcount",
+      "senderId": "u-matsumoto",
+      "text": "明日 北斗鳶 4名 8:00入場 東面 足場盛替え 👍",
+      "sentAt": "2026-11-11T11:20:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j036",
+      "roomId": "room-jimu",
+      "senderId": "u-inoue",
+      "text": "名簿と健診の写し、事務所に置きました",
+      "sentAt": "2026-11-11T11:30:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0293",
+      "roomId": "room-area2",
+      "senderId": "u-inoue",
+      "text": "明後日9時半くらいに4tユニックでケーブルドラム入れます。西からで",
+      "sentAt": "2026-11-11T11:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-j037",
+      "roomId": "room-jimu",
+      "senderId": "u-takahashi",
+      "text": "井上様、受領いたしました。明日13時に事務所2Fへお越しください。",
+      "sentAt": "2026-11-11T11:40:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0294",
+      "roomId": "room-area2",
+      "senderId": "u-yamaguchi",
+      "text": "2工区北面のシーリング材、搬入済みです😊",
+      "sentAt": "2026-11-11T11:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0295",
+      "roomId": "room-area3",
+      "senderId": "u-nakamura",
+      "text": "@佐藤 さん 10Fダクトの施工図チェック、来週月曜（11/16）までに戻してもらえると助かります。",
+      "sentAt": "2026-11-11T12:10:00+09:00",
+      "replyToId": null,
+      "mentionIds": [
+        "u-sato"
+      ]
+    },
+    {
+      "id": "m-0296",
+      "roomId": "room-headcount",
+      "senderId": "u-yamashita",
+      "text": "明日 新栄外構 5名 8:00入場 北側通路（再開準備・段取り）",
+      "sentAt": "2026-11-11T12:35:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    },
+    {
+      "id": "m-0297",
+      "roomId": "room-co-floor",
+      "senderId": "u-nakajima",
+      "text": "4F床、小林さんに確認いただきました！ありがとうございます✨",
+      "sentAt": "2026-11-11T12:50:00+09:00",
+      "replyToId": null,
+      "mentionIds": []
+    }
+  ],
+  "todos": [
+    {
+      "id": "t-001",
+      "title": "港南鉄筋 B1F残材回収の立会い",
+      "detail": "港南鉄筋工業 岡田さんから連絡（10/28）。10/29 10時 西ゲート",
+      "assigneeId": "u-sato",
+      "requesterId": "u-okada",
+      "roomId": "room-co-tekkin",
+      "sourceMessageId": "m-0015",
+      "dueDate": "2026-10-29",
+      "status": "done",
+      "createdById": "u-sato",
+      "createdAt": "2026-10-28T16:55:00+09:00"
+    },
+    {
+      "id": "t-002",
+      "title": "富士空調へ屋上機器の搬入ルート図を送付",
+      "detail": "富士空調 木村さんから依頼（3工区ルーム 11/4）",
+      "assigneeId": "u-sato",
+      "requesterId": "u-kimura",
+      "roomId": "room-area3",
+      "sourceMessageId": "m-0113",
+      "dueDate": "2026-11-04",
+      "status": "done",
+      "createdById": "u-sato",
+      "createdAt": "2026-11-04T09:30:00+09:00"
+    },
+    {
+      "id": "t-003",
+      "title": "6Fボード欠品のメーカー回答書を受け取る",
+      "detail": "東邦内装 清水さんに依頼済み（2工区ルーム 11/5）。工程遅れの根拠資料として保管",
+      "assigneeId": "u-sato",
+      "requesterId": "u-sato",
+      "roomId": "room-area2",
+      "sourceMessageId": "m-0133",
+      "dueDate": "2026-11-12",
+      "status": "open",
+      "createdById": "u-sato",
+      "createdAt": "2026-11-05T09:06:00+09:00"
+    },
+    {
+      "id": "t-004",
+      "title": "消防検査（2/16）の日程を所轄と調整",
+      "detail": "関東消防設備 前田さんから依頼（11/9）",
+      "assigneeId": "u-sato",
+      "requesterId": "u-maeda",
+      "roomId": "room-co-shobo",
+      "sourceMessageId": "m-0221",
+      "dueDate": "2026-11-10",
+      "status": "done",
+      "createdById": "u-sato",
+      "createdAt": "2026-11-09T11:35:00+09:00"
+    },
+    {
+      "id": "t-005",
+      "title": "屋上防水 着工前打合せの資料準備",
+      "detail": "日進防水 森さんと 11/13 10時に打合せ（3工区ルーム 11/9）",
+      "assigneeId": "u-sato",
+      "requesterId": "u-mori",
+      "roomId": "room-area3",
+      "sourceMessageId": "m-0218",
+      "dueDate": "2026-11-13",
+      "status": "open",
+      "createdById": "u-sato",
+      "createdAt": "2026-11-09T10:52:00+09:00"
+    },
+    {
+      "id": "t-006",
+      "title": "11/15 全館停電の本社届出を作成・提出",
+      "detail": "山本所長から依頼（本社工務部ルーム 11/5）。停電の範囲・時間は中村さんに確認。影響範囲に仮設照明・仮設EVの停止も記載（加藤さん 11/11）",
+      "assigneeId": "u-takahashi",
+      "requesterId": "u-yamamoto",
+      "roomId": "room-honsha",
+      "sourceMessageId": "m-h018",
+      "dueDate": "2026-11-12",
+      "status": "open",
+      "createdById": "u-takahashi",
+      "createdAt": "2026-11-05T15:36:00+09:00"
+    },
+    {
+      "id": "t-007",
+      "title": "10月分 出来高の数量集計表・出来高確認書の取りまとめ",
+      "detail": "山本所長から依頼（本社工務部ルーム 10/30）。11/9 に佐藤さんへ引き渡し済み",
+      "assigneeId": "u-takahashi",
+      "requesterId": "u-yamamoto",
+      "roomId": "room-honsha",
+      "sourceMessageId": "m-h008",
+      "dueDate": "2026-11-09",
+      "status": "done",
+      "createdById": "u-takahashi",
+      "createdAt": "2026-10-30T17:43:00+09:00"
+    },
+    {
+      "id": "t-008",
+      "title": "11/12 新規入場者教育の受講者書類チェック",
+      "detail": "東邦内装 2名・三光電設 1名（ほかにメール受付分：日進防水4・山王2・大江戸3、計12名）。作業員名簿と健康診断書の写し（締切 11/11 17時）。会場は事務所2F（講師：伊藤さん）",
+      "assigneeId": "u-takahashi",
+      "requesterId": "u-ito",
+      "roomId": "room-jimu",
+      "sourceMessageId": "m-j023",
+      "dueDate": "2026-11-11",
+      "status": "open",
+      "createdById": "u-takahashi",
+      "createdAt": "2026-11-09T09:05:00+09:00"
+    },
+    {
+      "id": "t-009",
+      "title": "港南三丁目 10月分 出来高報告の受領・査定",
+      "detail": "締切 11/11（水）17:00。査定根拠として各工種の進捗写真を添付してもらう（本社工務部ルーム 10/30）",
+      "assigneeId": "u-kato",
+      "requesterId": "u-kato",
+      "roomId": "room-honsha",
+      "sourceMessageId": "m-h007",
+      "dueDate": "2026-11-11",
+      "status": "open",
+      "createdById": "u-kato",
+      "createdAt": "2026-10-30T17:25:00+09:00"
+    },
+    {
+      "id": "t-010",
+      "title": "港南三丁目 現場巡回（11/13 9:00〜11:30）",
+      "detail": "山本所長・佐藤さんは同行なし。事務所で高橋さんに声をかけてから回る",
+      "assigneeId": "u-kato",
+      "requesterId": "u-kato",
+      "roomId": "room-honsha",
+      "sourceMessageId": "m-h031",
+      "dueDate": "2026-11-13",
+      "status": "open",
+      "createdById": "u-kato",
+      "createdAt": "2026-11-10T11:25:00+09:00"
+    },
+    {
+      "id": "t-011",
+      "title": "11/19 施主検査の準備状況を本社に共有",
+      "detail": "加藤さんから依頼（本社工務部ルーム 11/9）。来週前半に共有",
+      "assigneeId": "u-yamamoto",
+      "requesterId": "u-kato",
+      "roomId": "room-honsha",
+      "sourceMessageId": "m-h023",
+      "dueDate": "2026-11-17",
+      "status": "open",
+      "createdById": "u-kato",
+      "createdAt": "2026-11-09T09:32:00+09:00"
+    }
+  ]
+}

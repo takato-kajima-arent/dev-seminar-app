@@ -1,0 +1,2487 @@
+{
+  "workingHours": {
+    "start": "08:00",
+    "end": "18:00"
+  },
+  "calendars": [
+    {
+      "userId": "u-sato",
+      "color": "#2f7d6d"
+    },
+    {
+      "userId": "u-nakamura",
+      "color": "#c26a2e"
+    },
+    {
+      "userId": "u-kobayashi",
+      "color": "#b5487a"
+    },
+    {
+      "userId": "u-kato",
+      "color": "#8a6d3b"
+    },
+    {
+      "userId": "u-yamamoto",
+      "color": "#5b6abf"
+    },
+    {
+      "userId": "u-takahashi",
+      "color": "#9c6ade"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-001",
+      "title": "朝礼",
+      "start": "2026-11-02T08:00:00+09:00",
+      "end": "2026-11-02T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-002",
+      "title": "安全巡回",
+      "start": "2026-11-02T08:30:00+09:00",
+      "end": "2026-11-02T09:30:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-003",
+      "title": "書類チェック（作業員名簿・新規入場者）",
+      "start": "2026-11-02T09:00:00+09:00",
+      "end": "2026-11-02T10:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-004",
+      "title": "工務部会（週次）",
+      "start": "2026-11-02T09:30:00+09:00",
+      "end": "2026-11-02T11:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-005",
+      "title": "近隣挨拶回り（11月 作業予定のお知らせ）",
+      "start": "2026-11-02T10:00:00+09:00",
+      "end": "2026-11-02T11:00:00+09:00",
+      "allDay": false,
+      "location": "周辺町会・近隣",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-006",
+      "title": "5F 天井ボード 中間検査（北側）",
+      "start": "2026-11-02T14:00:00+09:00",
+      "end": "2026-11-02T15:00:00+09:00",
+      "allDay": false,
+      "location": "5F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-007",
+      "title": "月次 原価管理 検討",
+      "start": "2026-11-02T14:00:00+09:00",
+      "end": "2026-11-02T15:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 所長席",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-008",
+      "title": "大井町現場 巡回",
+      "start": "2026-11-02T14:00:00+09:00",
+      "end": "2026-11-02T16:00:00+09:00",
+      "allDay": false,
+      "location": "大井町二丁目共同住宅 現場",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato",
+        "u-ogawa"
+      ],
+      "description": "（仮称）大井町二丁目共同住宅新築工事 小川所長"
+    },
+    {
+      "id": "ev-009",
+      "title": "駐車場 利用申請 整理",
+      "start": "2026-11-02T14:00:00+09:00",
+      "end": "2026-11-02T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-010",
+      "title": "空調 試運転計画 打合せ",
+      "start": "2026-11-02T15:00:00+09:00",
+      "end": "2026-11-02T16:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-kimura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-011",
+      "title": "文化の日（作業休工・工程定例のみ）",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "allDay": true,
+      "location": "",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-012",
+      "title": "工程定例",
+      "start": "2026-11-03T15:00:00+09:00",
+      "end": "2026-11-03T15:35:00+09:00",
+      "allDay": false,
+      "location": "2F 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "祝日のため作業は休工、定例のみ実施"
+    },
+    {
+      "id": "ev-013",
+      "title": "朝礼",
+      "start": "2026-11-04T08:00:00+09:00",
+      "end": "2026-11-04T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-014",
+      "title": "施主定例",
+      "start": "2026-11-04T10:00:00+09:00",
+      "end": "2026-11-04T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ueda"
+      ],
+      "description": "港南不動産開発 上田様（資料：施主定例資料_第24回_2026-11-04.pdf）"
+    },
+    {
+      "id": "ev-015",
+      "title": "各現場 月次報告 取りまとめ",
+      "start": "2026-11-04T10:00:00+09:00",
+      "end": "2026-11-04T11:30:00+09:00",
+      "allDay": false,
+      "location": "本社 工務部",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-016",
+      "title": "書類チェック（安全書類）",
+      "start": "2026-11-04T10:00:00+09:00",
+      "end": "2026-11-04T11:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-017",
+      "title": "支払処理 確認（経理 西田さん）",
+      "start": "2026-11-04T13:00:00+09:00",
+      "end": "2026-11-04T14:00:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-nishida",
+      "attendeeIds": [
+        "u-takahashi",
+        "u-nishida"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-018",
+      "title": "屋上 機器搬入ルート確認",
+      "start": "2026-11-04T13:30:00+09:00",
+      "end": "2026-11-04T14:30:00+09:00",
+      "allDay": false,
+      "location": "屋上",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kimura"
+      ],
+      "description": "富士空調 木村さん"
+    },
+    {
+      "id": "ev-019",
+      "title": "内装 色決め（共用部）",
+      "start": "2026-11-04T13:30:00+09:00",
+      "end": "2026-11-04T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-morita"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-020",
+      "title": "本社 工務会議（オンライン）",
+      "start": "2026-11-04T15:00:00+09:00",
+      "end": "2026-11-04T16:00:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-021",
+      "title": "所内工程会議",
+      "start": "2026-11-04T16:00:00+09:00",
+      "end": "2026-11-04T17:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-022",
+      "title": "朝礼",
+      "start": "2026-11-05T08:00:00+09:00",
+      "end": "2026-11-05T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-023",
+      "title": "書類チェック（作業計画書の回収）",
+      "start": "2026-11-05T09:00:00+09:00",
+      "end": "2026-11-05T10:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-024",
+      "title": "6F 内装 工程確認（東邦内装）",
+      "start": "2026-11-05T10:00:00+09:00",
+      "end": "2026-11-05T11:00:00+09:00",
+      "allDay": false,
+      "location": "6F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-025",
+      "title": "本社 所長会議",
+      "start": "2026-11-05T10:00:00+09:00",
+      "end": "2026-11-05T12:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-kato",
+        "u-ogawa"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-026",
+      "title": "受変電 切替 事前打合せ",
+      "start": "2026-11-05T13:00:00+09:00",
+      "end": "2026-11-05T14:30:00+09:00",
+      "allDay": false,
+      "location": "1F 電気室",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-027",
+      "title": "6F 内装 遅れ 対応検討（ボード欠品）",
+      "start": "2026-11-05T14:00:00+09:00",
+      "end": "2026-11-05T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-028",
+      "title": "役員会資料 作成",
+      "start": "2026-11-05T14:00:00+09:00",
+      "end": "2026-11-05T16:00:00+09:00",
+      "allDay": false,
+      "location": "本社 工務部",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-029",
+      "title": "1工区 給水管 施工確認",
+      "start": "2026-11-05T15:00:00+09:00",
+      "end": "2026-11-05T16:00:00+09:00",
+      "allDay": false,
+      "location": "2F・3F",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-hayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-030",
+      "title": "事務所 備品 発注",
+      "start": "2026-11-05T15:00:00+09:00",
+      "end": "2026-11-05T16:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-031",
+      "title": "朝礼",
+      "start": "2026-11-06T08:00:00+09:00",
+      "end": "2026-11-06T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-032",
+      "title": "原価 照会 打合せ（経理）",
+      "start": "2026-11-06T10:00:00+09:00",
+      "end": "2026-11-06T11:00:00+09:00",
+      "allDay": false,
+      "location": "本社 4F 打合せスペース",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato",
+        "u-nishida"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-033",
+      "title": "日報 回収・整理",
+      "start": "2026-11-06T10:00:00+09:00",
+      "end": "2026-11-06T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-034",
+      "title": "安全パトロール",
+      "start": "2026-11-06T10:30:00+09:00",
+      "end": "2026-11-06T11:30:00+09:00",
+      "allDay": false,
+      "location": "場内全域",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito",
+        "u-yamamoto"
+      ],
+      "description": "月例パトロール。指摘は伊藤さんが安全パトロールルームに投稿"
+    },
+    {
+      "id": "ev-035",
+      "title": "協力会社 作業間調整（2工区）",
+      "start": "2026-11-06T13:30:00+09:00",
+      "end": "2026-11-06T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-036",
+      "title": "内装 サンプル確認",
+      "start": "2026-11-06T15:30:00+09:00",
+      "end": "2026-11-06T16:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-037",
+      "title": "本社 加藤課長 定例報告（オンライン）",
+      "start": "2026-11-06T15:30:00+09:00",
+      "end": "2026-11-06T16:30:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-kato"
+      ],
+      "description": "10月 月次報告の確認・11/15 停電の届出について"
+    },
+    {
+      "id": "ev-038",
+      "title": "朝礼",
+      "start": "2026-11-09T08:00:00+09:00",
+      "end": "2026-11-09T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-039",
+      "title": "安全巡回",
+      "start": "2026-11-09T08:30:00+09:00",
+      "end": "2026-11-09T09:30:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-040",
+      "title": "9F 空調ダクト 施工確認",
+      "start": "2026-11-09T09:00:00+09:00",
+      "end": "2026-11-09T10:30:00+09:00",
+      "allDay": false,
+      "location": "9F",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-kimura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-041",
+      "title": "場内巡回（所長）",
+      "start": "2026-11-09T09:00:00+09:00",
+      "end": "2026-11-09T10:00:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-042",
+      "title": "書類チェック（安全書類・作業員名簿）",
+      "start": "2026-11-09T09:00:00+09:00",
+      "end": "2026-11-09T10:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-043",
+      "title": "工務部会（週次）",
+      "start": "2026-11-09T09:30:00+09:00",
+      "end": "2026-11-09T11:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-044",
+      "title": "書類作成（安全書類・作業計画書チェック）",
+      "start": "2026-11-09T10:00:00+09:00",
+      "end": "2026-11-09T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-045",
+      "title": "5F 天井ボード 進捗確認",
+      "start": "2026-11-09T11:00:00+09:00",
+      "end": "2026-11-09T12:00:00+09:00",
+      "allDay": false,
+      "location": "5F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-046",
+      "title": "昼休み",
+      "start": "2026-11-09T12:00:00+09:00",
+      "end": "2026-11-09T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-047",
+      "title": "昼休み",
+      "start": "2026-11-09T12:00:00+09:00",
+      "end": "2026-11-09T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-048",
+      "title": "昼休み",
+      "start": "2026-11-09T12:00:00+09:00",
+      "end": "2026-11-09T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-049",
+      "title": "協力会社 作業間調整（1工区）",
+      "start": "2026-11-09T13:00:00+09:00",
+      "end": "2026-11-09T14:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-050",
+      "title": "原価 実行予算 見直し",
+      "start": "2026-11-09T13:30:00+09:00",
+      "end": "2026-11-09T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 所長席",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-051",
+      "title": "新規入場者教育 資料準備",
+      "start": "2026-11-09T13:30:00+09:00",
+      "end": "2026-11-09T14:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-052",
+      "title": "三光電設 幹線ケーブル 打合せ",
+      "start": "2026-11-09T14:00:00+09:00",
+      "end": "2026-11-09T15:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-053",
+      "title": "大井町 小川所長 相談（オンライン）",
+      "start": "2026-11-09T14:00:00+09:00",
+      "end": "2026-11-09T15:00:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-ogawa",
+      "attendeeIds": [
+        "u-kato",
+        "u-ogawa"
+      ],
+      "description": "内装（LGS）業者の手配について（12月前半の人員不足）"
+    },
+    {
+      "id": "ev-054",
+      "title": "外構 北側通路 現地確認（排水管）",
+      "start": "2026-11-09T14:30:00+09:00",
+      "end": "2026-11-09T16:00:00+09:00",
+      "allDay": false,
+      "location": "北側通路",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-yamashita"
+      ],
+      "description": "既設排水管の位置ずれ確認"
+    },
+    {
+      "id": "ev-055",
+      "title": "出来高資料 取りまとめ（加藤さん依頼）",
+      "start": "2026-11-09T15:00:00+09:00",
+      "end": "2026-11-09T16:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-056",
+      "title": "2F 共用廊下 塗装 仕上り確認（光陽塗装）",
+      "start": "2026-11-09T15:30:00+09:00",
+      "end": "2026-11-09T17:00:00+09:00",
+      "allDay": false,
+      "location": "2F 共用廊下",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-yamaguchi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-057",
+      "title": "施工図チェック（3F・6F）",
+      "start": "2026-11-09T16:00:00+09:00",
+      "end": "2026-11-09T17:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-058",
+      "title": "設備 書類整理",
+      "start": "2026-11-09T17:00:00+09:00",
+      "end": "2026-11-09T18:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-059",
+      "title": "朝礼",
+      "start": "2026-11-10T08:00:00+09:00",
+      "end": "2026-11-10T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-060",
+      "title": "安全巡回",
+      "start": "2026-11-10T08:30:00+09:00",
+      "end": "2026-11-10T09:30:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-061",
+      "title": "EV 1号機 仮使用 検査書類 確認",
+      "start": "2026-11-10T09:00:00+09:00",
+      "end": "2026-11-10T10:30:00+09:00",
+      "allDay": false,
+      "location": "EVシャフト",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-abe"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-062",
+      "title": "日報 回収・整理",
+      "start": "2026-11-10T09:00:00+09:00",
+      "end": "2026-11-10T10:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-063",
+      "title": "書類作成（作業計画書・搬入計画）",
+      "start": "2026-11-10T09:30:00+09:00",
+      "end": "2026-11-10T11:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-064",
+      "title": "全館停電（11/15）本社届出 確認",
+      "start": "2026-11-10T09:30:00+09:00",
+      "end": "2026-11-10T10:30:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-065",
+      "title": "6F LGS 下地 確認",
+      "start": "2026-11-10T10:30:00+09:00",
+      "end": "2026-11-10T12:00:00+09:00",
+      "allDay": false,
+      "location": "6F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-066",
+      "title": "外構 北側通路 ルート変更 指示",
+      "start": "2026-11-10T11:00:00+09:00",
+      "end": "2026-11-10T12:00:00+09:00",
+      "allDay": false,
+      "location": "北側通路",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-yamashita"
+      ],
+      "description": "森田設計の回答を受けてルート変更を指示"
+    },
+    {
+      "id": "ev-067",
+      "title": "昼休み",
+      "start": "2026-11-10T12:00:00+09:00",
+      "end": "2026-11-10T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-068",
+      "title": "昼休み",
+      "start": "2026-11-10T12:00:00+09:00",
+      "end": "2026-11-10T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-069",
+      "title": "昼休み",
+      "start": "2026-11-10T12:00:00+09:00",
+      "end": "2026-11-10T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-070",
+      "title": "耐圧試験 段取り確認",
+      "start": "2026-11-10T13:00:00+09:00",
+      "end": "2026-11-10T14:00:00+09:00",
+      "allDay": false,
+      "location": "2F",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-hayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-071",
+      "title": "書類チェック（定例資料）",
+      "start": "2026-11-10T13:00:00+09:00",
+      "end": "2026-11-10T14:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-072",
+      "title": "森田設計 電話打合せ（3F天井変更）",
+      "start": "2026-11-10T13:00:00+09:00",
+      "end": "2026-11-10T14:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-morita"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-073",
+      "title": "出来高資料 取りまとめ（数量・写真）",
+      "start": "2026-11-10T13:00:00+09:00",
+      "end": "2026-11-10T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-074",
+      "title": "役員会資料 レビュー",
+      "start": "2026-11-10T13:30:00+09:00",
+      "end": "2026-11-10T15:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato",
+        "u-nishida"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-075",
+      "title": "耐圧試験立会い（2-3F 給水管）",
+      "start": "2026-11-10T14:00:00+09:00",
+      "end": "2026-11-10T15:00:00+09:00",
+      "allDay": false,
+      "location": "2F・3F",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-hayashi"
+      ],
+      "description": "青葉設備 林さん"
+    },
+    {
+      "id": "ev-076",
+      "title": "工程定例",
+      "start": "2026-11-10T15:00:00+09:00",
+      "end": "2026-11-10T16:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito",
+        "u-inoue",
+        "u-kimura",
+        "u-shimizu",
+        "u-matsumoto",
+        "u-hayashi",
+        "u-yamashita",
+        "u-yamaguchi"
+      ],
+      "description": "文字起こし：02_定例会議/2026-11-10_工程定例_文字起こし.txt"
+    },
+    {
+      "id": "ev-077",
+      "title": "定例 議事整理",
+      "start": "2026-11-10T16:00:00+09:00",
+      "end": "2026-11-10T17:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-078",
+      "title": "施工図チェック（内装）",
+      "start": "2026-11-10T16:30:00+09:00",
+      "end": "2026-11-10T18:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-079",
+      "title": "朝礼",
+      "start": "2026-11-11T08:00:00+09:00",
+      "end": "2026-11-11T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-080",
+      "title": "安全巡回",
+      "start": "2026-11-11T08:30:00+09:00",
+      "end": "2026-11-11T09:30:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-081",
+      "title": "受変電 切替 手順確認",
+      "start": "2026-11-11T09:00:00+09:00",
+      "end": "2026-11-11T10:00:00+09:00",
+      "allDay": false,
+      "location": "1F 電気室",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-082",
+      "title": "日報 回収・整理",
+      "start": "2026-11-11T09:00:00+09:00",
+      "end": "2026-11-11T10:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-083",
+      "title": "施主定例",
+      "start": "2026-11-11T10:00:00+09:00",
+      "end": "2026-11-11T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ueda"
+      ],
+      "description": "港南不動産開発 上田様"
+    },
+    {
+      "id": "ev-084",
+      "title": "年末安全大会 打合せ（安全環境部）",
+      "start": "2026-11-11T10:00:00+09:00",
+      "end": "2026-11-11T11:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-saito",
+      "attendeeIds": [
+        "u-kato",
+        "u-saito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-085",
+      "title": "内装 材料発注 確認",
+      "start": "2026-11-11T11:30:00+09:00",
+      "end": "2026-11-11T12:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-086",
+      "title": "昼休み",
+      "start": "2026-11-11T12:00:00+09:00",
+      "end": "2026-11-11T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-087",
+      "title": "昼休み",
+      "start": "2026-11-11T12:00:00+09:00",
+      "end": "2026-11-11T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-088",
+      "title": "昼休み",
+      "start": "2026-11-11T12:00:00+09:00",
+      "end": "2026-11-11T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-089",
+      "title": "三光電設 7F 幹線入線 確認",
+      "start": "2026-11-11T13:00:00+09:00",
+      "end": "2026-11-11T14:00:00+09:00",
+      "allDay": false,
+      "location": "7F",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-090",
+      "title": "森田設計 打合せ（3F天井変更）",
+      "start": "2026-11-11T13:30:00+09:00",
+      "end": "2026-11-11T14:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-morita"
+      ],
+      "description": "3F会議室 天井高さ変更（CH2700→2600）承認書の確認"
+    },
+    {
+      "id": "ev-091",
+      "title": "月次 安全衛生 書類確認",
+      "start": "2026-11-11T13:30:00+09:00",
+      "end": "2026-11-11T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 所長席",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-092",
+      "title": "中央監視設備 メーカー打合せ",
+      "start": "2026-11-11T14:00:00+09:00",
+      "end": "2026-11-11T16:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-093",
+      "title": "原価会議",
+      "start": "2026-11-11T14:00:00+09:00",
+      "end": "2026-11-11T15:00:00+09:00",
+      "allDay": false,
+      "location": "本社 4F 打合せスペース",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato",
+        "u-nishida"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-094",
+      "title": "出来高報告 補助（資料の体裁・添付確認）",
+      "start": "2026-11-11T14:00:00+09:00",
+      "end": "2026-11-11T16:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": "佐藤さんの 10月分 出来高報告の補助"
+    },
+    {
+      "id": "ev-095",
+      "title": "6F 内装 中間検査立会い",
+      "start": "2026-11-11T15:00:00+09:00",
+      "end": "2026-11-11T15:30:00+09:00",
+      "allDay": false,
+      "location": "6F",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-096",
+      "title": "所内工程会議",
+      "start": "2026-11-11T16:00:00+09:00",
+      "end": "2026-11-11T17:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-097",
+      "title": "【締切 17:00】10月分 出来高 本社提出",
+      "start": "2026-11-11T16:30:00+09:00",
+      "end": "2026-11-11T17:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": "本社 加藤さん宛て。佐藤さん作成分の提出確認"
+    },
+    {
+      "id": "ev-098",
+      "title": "出来高報告作成",
+      "start": "2026-11-11T17:00:00+09:00",
+      "end": "2026-11-11T17:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": "10月分 出来高報告（本社 加藤さん 17時締切）"
+    },
+    {
+      "id": "ev-099",
+      "title": "内装 協力会社 打合せ（3F 天井）",
+      "start": "2026-11-11T17:00:00+09:00",
+      "end": "2026-11-11T18:00:00+09:00",
+      "allDay": false,
+      "location": "3F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-100",
+      "title": "10月分 出来高 集計（各現場 17時締切）",
+      "start": "2026-11-11T17:00:00+09:00",
+      "end": "2026-11-11T18:00:00+09:00",
+      "allDay": false,
+      "location": "本社 工務部",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": "港南三丁目・大井町二丁目ほか"
+    },
+    {
+      "id": "ev-101",
+      "title": "朝礼",
+      "start": "2026-11-12T08:00:00+09:00",
+      "end": "2026-11-12T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-102",
+      "title": "富士空調 室外機 搬入立会い",
+      "start": "2026-11-12T08:30:00+09:00",
+      "end": "2026-11-12T09:30:00+09:00",
+      "allDay": false,
+      "location": "北側搬入口",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito",
+        "u-kimura"
+      ],
+      "description": "4tユニック 2台"
+    },
+    {
+      "id": "ev-103",
+      "title": "大井町現場 巡回",
+      "start": "2026-11-12T09:00:00+09:00",
+      "end": "2026-11-12T12:00:00+09:00",
+      "allDay": false,
+      "location": "大井町二丁目共同住宅 現場",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato",
+        "u-ogawa"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-104",
+      "title": "新規入場者 書類受付",
+      "start": "2026-11-12T09:00:00+09:00",
+      "end": "2026-11-12T10:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-105",
+      "title": "安全巡回（雨天点検）",
+      "start": "2026-11-12T09:30:00+09:00",
+      "end": "2026-11-12T10:30:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-106",
+      "title": "石膏ボード 搬入確認",
+      "start": "2026-11-12T10:00:00+09:00",
+      "end": "2026-11-12T11:00:00+09:00",
+      "allDay": false,
+      "location": "西ゲート",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-107",
+      "title": "雨天 場内巡回（所長）",
+      "start": "2026-11-12T10:00:00+09:00",
+      "end": "2026-11-12T11:00:00+09:00",
+      "allDay": false,
+      "location": "場内",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-108",
+      "title": "書類作成（安全書類）",
+      "start": "2026-11-12T10:30:00+09:00",
+      "end": "2026-11-12T12:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-109",
+      "title": "昼休み",
+      "start": "2026-11-12T12:00:00+09:00",
+      "end": "2026-11-12T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-110",
+      "title": "昼休み",
+      "start": "2026-11-12T12:00:00+09:00",
+      "end": "2026-11-12T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-111",
+      "title": "昼休み",
+      "start": "2026-11-12T12:00:00+09:00",
+      "end": "2026-11-12T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-112",
+      "title": "明和サッシ 5F ガラス 搬入立会い",
+      "start": "2026-11-12T13:00:00+09:00",
+      "end": "2026-11-12T14:00:00+09:00",
+      "allDay": false,
+      "location": "北側搬入口",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ikeda"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-113",
+      "title": "三光電設 幹線 打合せ・現地確認",
+      "start": "2026-11-12T13:00:00+09:00",
+      "end": "2026-11-12T15:30:00+09:00",
+      "allDay": false,
+      "location": "6F〜8F",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-114",
+      "title": "新規入場者教育",
+      "start": "2026-11-12T13:00:00+09:00",
+      "end": "2026-11-12T14:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 2F",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-ito",
+        "u-takahashi"
+      ],
+      "description": "受付・書類回収は高橋、教育は伊藤"
+    },
+    {
+      "id": "ev-115",
+      "title": "雨天 作業振替 調整",
+      "start": "2026-11-12T14:00:00+09:00",
+      "end": "2026-11-12T15:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-116",
+      "title": "施主検査 準備 打合せ（本社 加藤課長）",
+      "start": "2026-11-12T15:00:00+09:00",
+      "end": "2026-11-12T16:00:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-117",
+      "title": "書類チェック（新規入場者 書類）",
+      "start": "2026-11-12T15:00:00+09:00",
+      "end": "2026-11-12T16:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-118",
+      "title": "5F 天井 手直し確認",
+      "start": "2026-11-12T16:00:00+09:00",
+      "end": "2026-11-12T17:30:00+09:00",
+      "allDay": false,
+      "location": "5F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-119",
+      "title": "協力会社 作業間調整",
+      "start": "2026-11-12T16:00:00+09:00",
+      "end": "2026-11-12T17:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-120",
+      "title": "設備 施工図チェック",
+      "start": "2026-11-12T17:00:00+09:00",
+      "end": "2026-11-12T18:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-121",
+      "title": "朝礼",
+      "start": "2026-11-13T08:00:00+09:00",
+      "end": "2026-11-13T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-122",
+      "title": "生コン打設 立会い（南側駐輪場 土間）",
+      "start": "2026-11-13T08:30:00+09:00",
+      "end": "2026-11-13T09:30:00+09:00",
+      "allDay": false,
+      "location": "南側駐輪場",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito"
+      ],
+      "description": "城南生コン 生コン車 延べ6台（東ゲート）。1台目 8:00 現着（朝礼中は伊藤が誘導員と対応）"
+    },
+    {
+      "id": "ev-123",
+      "title": "本社 所長会議",
+      "start": "2026-11-13T09:00:00+09:00",
+      "end": "2026-11-13T11:30:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-ogawa",
+        "u-saito"
+      ],
+      "description": "年末安全大会の進め方ほか（加藤課長は港南現場 巡回のため欠席）"
+    },
+    {
+      "id": "ev-124",
+      "title": "港南三丁目現場 巡回",
+      "start": "2026-11-13T09:00:00+09:00",
+      "end": "2026-11-13T11:30:00+09:00",
+      "allDay": false,
+      "location": "港南三丁目 現場",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": "単独で巡回（山本所長・佐藤さんは同行なし）。6F 内装・施主検査範囲の確認"
+    },
+    {
+      "id": "ev-125",
+      "title": "三光電設 ケーブルドラム 搬入確認",
+      "start": "2026-11-13T09:30:00+09:00",
+      "end": "2026-11-13T10:00:00+09:00",
+      "allDay": false,
+      "location": "西ゲート",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-126",
+      "title": "屋上防水 着工前打合せ",
+      "start": "2026-11-13T10:00:00+09:00",
+      "end": "2026-11-13T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-mori"
+      ],
+      "description": "日進防水 森さん"
+    },
+    {
+      "id": "ev-127",
+      "title": "駐車場 利用申請 締め",
+      "start": "2026-11-13T10:00:00+09:00",
+      "end": "2026-11-13T11:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-128",
+      "title": "内装 施工図 受領確認",
+      "start": "2026-11-13T11:30:00+09:00",
+      "end": "2026-11-13T12:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-129",
+      "title": "昼休み",
+      "start": "2026-11-13T12:00:00+09:00",
+      "end": "2026-11-13T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-130",
+      "title": "昼休み",
+      "start": "2026-11-13T12:00:00+09:00",
+      "end": "2026-11-13T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-131",
+      "title": "昼休み",
+      "start": "2026-11-13T12:00:00+09:00",
+      "end": "2026-11-13T13:00:00+09:00",
+      "allDay": false,
+      "location": "",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-132",
+      "title": "写真整理",
+      "start": "2026-11-13T13:00:00+09:00",
+      "end": "2026-11-13T13:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-133",
+      "title": "床材・クロス材 搬入確認",
+      "start": "2026-11-13T14:00:00+09:00",
+      "end": "2026-11-13T15:00:00+09:00",
+      "allDay": false,
+      "location": "西ゲート",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-nakajima"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-134",
+      "title": "本社 工務会議（オンライン）",
+      "start": "2026-11-13T14:00:00+09:00",
+      "end": "2026-11-13T16:30:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-135",
+      "title": "原価 月次報告 作成",
+      "start": "2026-11-13T14:00:00+09:00",
+      "end": "2026-11-13T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 所長席",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-136",
+      "title": "書類チェック（安全書類）",
+      "start": "2026-11-13T14:00:00+09:00",
+      "end": "2026-11-13T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-137",
+      "title": "4F 内装 検査",
+      "start": "2026-11-13T15:00:00+09:00",
+      "end": "2026-11-13T16:30:00+09:00",
+      "allDay": false,
+      "location": "4F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-138",
+      "title": "設備 工程調整",
+      "start": "2026-11-13T16:30:00+09:00",
+      "end": "2026-11-13T18:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-139",
+      "title": "全館停電（受変電設備 切替）",
+      "start": "2026-11-15T08:00:00+09:00",
+      "end": "2026-11-15T12:00:00+09:00",
+      "allDay": false,
+      "location": "1F 電気室",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-inoue"
+      ],
+      "description": "三光電設 立会い"
+    },
+    {
+      "id": "ev-140",
+      "title": "朝礼",
+      "start": "2026-11-16T08:00:00+09:00",
+      "end": "2026-11-16T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-141",
+      "title": "10F 空調ダクト 着手確認",
+      "start": "2026-11-16T09:00:00+09:00",
+      "end": "2026-11-16T10:30:00+09:00",
+      "allDay": false,
+      "location": "10F",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-kimura"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-142",
+      "title": "書類チェック（作業員名簿 更新分）",
+      "start": "2026-11-16T09:00:00+09:00",
+      "end": "2026-11-16T10:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-143",
+      "title": "工務部会（週次）",
+      "start": "2026-11-16T09:30:00+09:00",
+      "end": "2026-11-16T11:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-144",
+      "title": "施主定例（11/18から振替）",
+      "start": "2026-11-16T10:00:00+09:00",
+      "end": "2026-11-16T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ueda"
+      ],
+      "description": "11/18（水）は屋上室外機のクレーン揚重のため月曜に振替。11/19 施主検査の事前確認を兼ねる"
+    },
+    {
+      "id": "ev-145",
+      "title": "役員会資料 最終確認・提出",
+      "start": "2026-11-16T11:00:00+09:00",
+      "end": "2026-11-16T12:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato",
+        "u-nishida"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-146",
+      "title": "施主検査 段取り確認",
+      "start": "2026-11-16T13:00:00+09:00",
+      "end": "2026-11-16T14:00:00+09:00",
+      "allDay": false,
+      "location": "1工区",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-147",
+      "title": "11月分 請求書 受付案内 送付",
+      "start": "2026-11-16T13:00:00+09:00",
+      "end": "2026-11-16T14:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": "協力会社各社へ（締め 11/25）"
+    },
+    {
+      "id": "ev-148",
+      "title": "施主検査 事前確認",
+      "start": "2026-11-16T14:00:00+09:00",
+      "end": "2026-11-16T15:00:00+09:00",
+      "allDay": false,
+      "location": "1工区",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-149",
+      "title": "朝礼",
+      "start": "2026-11-17T08:00:00+09:00",
+      "end": "2026-11-17T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-150",
+      "title": "EVかご内装材 搬入立会い",
+      "start": "2026-11-17T10:00:00+09:00",
+      "end": "2026-11-17T10:30:00+09:00",
+      "allDay": false,
+      "location": "西ゲート",
+      "organizerId": "u-nakamura",
+      "attendeeIds": [
+        "u-nakamura",
+        "u-abe"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-151",
+      "title": "役員会（工務部 報告）",
+      "start": "2026-11-17T10:00:00+09:00",
+      "end": "2026-11-17T12:00:00+09:00",
+      "allDay": false,
+      "location": "本社 8F 役員会議室",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-152",
+      "title": "支払処理 確認（経理 西田さん）",
+      "start": "2026-11-17T10:00:00+09:00",
+      "end": "2026-11-17T11:30:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-nishida",
+      "attendeeIds": [
+        "u-takahashi",
+        "u-nishida"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-153",
+      "title": "3F 会議室 天井 施工確認",
+      "start": "2026-11-17T13:00:00+09:00",
+      "end": "2026-11-17T14:00:00+09:00",
+      "allDay": false,
+      "location": "3F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-154",
+      "title": "工程定例",
+      "start": "2026-11-17T15:00:00+09:00",
+      "end": "2026-11-17T16:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-155",
+      "title": "朝礼",
+      "start": "2026-11-18T08:00:00+09:00",
+      "end": "2026-11-18T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-156",
+      "title": "屋上室外機 揚重・据付（クレーン）",
+      "start": "2026-11-18T08:30:00+09:00",
+      "end": "2026-11-18T16:00:00+09:00",
+      "allDay": false,
+      "location": "北側道路・屋上",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kimura",
+        "u-fujita"
+      ],
+      "description": "25tラフター"
+    },
+    {
+      "id": "ev-157",
+      "title": "揚重 開始 立会い（25tラフター）",
+      "start": "2026-11-18T09:00:00+09:00",
+      "end": "2026-11-18T10:00:00+09:00",
+      "allDay": false,
+      "location": "北側道路",
+      "organizerId": "u-yamamoto",
+      "attendeeIds": [
+        "u-yamamoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-158",
+      "title": "大井町 工程会議",
+      "start": "2026-11-18T13:30:00+09:00",
+      "end": "2026-11-18T15:00:00+09:00",
+      "allDay": false,
+      "location": "大井町二丁目共同住宅 現場",
+      "organizerId": "u-ogawa",
+      "attendeeIds": [
+        "u-kato",
+        "u-ogawa"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-159",
+      "title": "年末安全大会 打合せ",
+      "start": "2026-11-18T14:00:00+09:00",
+      "end": "2026-11-18T15:00:00+09:00",
+      "allDay": false,
+      "location": "Teams",
+      "organizerId": "u-saito",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-saito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-160",
+      "title": "書類チェック（安全書類）",
+      "start": "2026-11-18T14:00:00+09:00",
+      "end": "2026-11-18T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-161",
+      "title": "近隣説明（東面足場 一部解体）北斗鳶 同行",
+      "start": "2026-11-18T16:30:00+09:00",
+      "end": "2026-11-18T17:30:00+09:00",
+      "allDay": false,
+      "location": "東側近隣",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-matsumoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-162",
+      "title": "朝礼",
+      "start": "2026-11-19T08:00:00+09:00",
+      "end": "2026-11-19T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-163",
+      "title": "施主検査 配布資料 準備",
+      "start": "2026-11-19T09:00:00+09:00",
+      "end": "2026-11-19T10:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-164",
+      "title": "施主検査",
+      "start": "2026-11-19T10:00:00+09:00",
+      "end": "2026-11-19T12:00:00+09:00",
+      "allDay": false,
+      "location": "1工区（B1F〜4F）",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-kato",
+        "u-ueda",
+        "u-morita"
+      ],
+      "description": "港南不動産開発 上田様ほか"
+    },
+    {
+      "id": "ev-165",
+      "title": "施主検査 指摘事項 整理",
+      "start": "2026-11-19T14:00:00+09:00",
+      "end": "2026-11-19T15:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-kobayashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-166",
+      "title": "朝礼",
+      "start": "2026-11-20T08:00:00+09:00",
+      "end": "2026-11-20T08:30:00+09:00",
+      "allDay": false,
+      "location": "1F 朝礼広場",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-sato",
+        "u-nakamura",
+        "u-kobayashi",
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": "KY活動・当日の作業確認"
+    },
+    {
+      "id": "ev-167",
+      "title": "東面足場 一部解体 開始立会い",
+      "start": "2026-11-20T08:30:00+09:00",
+      "end": "2026-11-20T10:00:00+09:00",
+      "allDay": false,
+      "location": "東面",
+      "organizerId": "u-sato",
+      "attendeeIds": [
+        "u-sato",
+        "u-ito",
+        "u-matsumoto"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-168",
+      "title": "工務部 月次 締め",
+      "start": "2026-11-20T09:30:00+09:00",
+      "end": "2026-11-20T10:30:00+09:00",
+      "allDay": false,
+      "location": "本社 工務部",
+      "organizerId": "u-kato",
+      "attendeeIds": [
+        "u-kato"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-169",
+      "title": "請求書 受付・チェック",
+      "start": "2026-11-20T10:00:00+09:00",
+      "end": "2026-11-20T11:30:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-170",
+      "title": "6F 内装 完了検査",
+      "start": "2026-11-20T13:30:00+09:00",
+      "end": "2026-11-20T15:00:00+09:00",
+      "allDay": false,
+      "location": "6F",
+      "organizerId": "u-kobayashi",
+      "attendeeIds": [
+        "u-kobayashi",
+        "u-shimizu"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-171",
+      "title": "年末安全大会 準備会議",
+      "start": "2026-11-20T14:00:00+09:00",
+      "end": "2026-11-20T15:00:00+09:00",
+      "allDay": false,
+      "location": "本社 5F 会議室",
+      "organizerId": "u-saito",
+      "attendeeIds": [
+        "u-kato",
+        "u-saito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-172",
+      "title": "安全衛生協議会",
+      "start": "2026-11-20T15:00:00+09:00",
+      "end": "2026-11-20T16:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所 会議室",
+      "organizerId": "u-ito",
+      "attendeeIds": [
+        "u-yamamoto",
+        "u-ito"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-173",
+      "title": "月次 書類 締め",
+      "start": "2026-11-20T16:00:00+09:00",
+      "end": "2026-11-20T17:00:00+09:00",
+      "allDay": false,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ev-174",
+      "title": "【締切】11月分 請求書 締め",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "allDay": true,
+      "location": "現場事務所",
+      "organizerId": "u-takahashi",
+      "attendeeIds": [
+        "u-takahashi"
+      ],
+      "description": "協力会社からの 11月分 請求書の締め日"
+    }
+  ]
+}

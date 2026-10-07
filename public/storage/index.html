@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ファイル共有</title>
+<link rel="stylesheet" href="/storage/storage.css">
+</head>
+<body>
+<script src="/shared/nav.js"></script>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path fill="#fff" d="M4 6.5A2.5 2.5 0 0 1 6.5 4h3.6l2 2h5.4A2.5 2.5 0 0 1 20 8.5v9a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5z"/><path fill="#0b5cd5" d="M8 12h8v1.6H8zm0 3h5.5v1.6H8z"/></svg>
+    </span>
+    <span class="brand-name">ファイル共有</span>
+    <span class="brand-sep"></span>
+    <span class="brand-site" id="site-name"></span>
+  </div>
+  <label class="search">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M10 3a7 7 0 0 1 5.6 11.2l4.6 4.6-1.4 1.4-4.6-4.6A7 7 0 1 1 10 3m0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10"/></svg>
+    <input id="search" type="search" placeholder="ファイルとフォルダーを検索" autocomplete="off">
+  </label>
+  <div class="top-right">
+    <button class="icon-btn" title="通知" aria-label="通知"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.4-2h-4.8A2.5 2.5 0 0 0 12 22m7-6V11a7 7 0 0 0-5.5-6.8V3.5a1.5 1.5 0 0 0-3 0v.7A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg></button>
+    <button class="icon-btn" title="ヘルプ" aria-label="ヘルプ"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m1 17h-2v-2h2zm2.1-7.7-.9.9C13.5 12.9 13 13.5 13 15h-2v-.5c0-1.1.5-2.1 1.2-2.8l1.2-1.3A2 2 0 1 0 10 9H8a4 4 0 1 1 7.1 2.3"/></svg></button>
+    <span class="me" id="me"></span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidenav">
+    <nav class="nav-main">
+      <a class="nav-item" data-view="all" href="?">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M3 6.5A2.5 2.5 0 0 1 5.5 4h4l2 2h7A2.5 2.5 0 0 1 21 8.5v9a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5z"/></svg>
+        すべてのファイル
+      </a>
+      <a class="nav-item" data-view="recent" href="?view=recent">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20m0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16m1 3v5.4l3.6 2.1-1 1.7L11 13.5V7z"/></svg>
+        最近使用したファイル
+      </a>
+      <a class="nav-item" data-view="mine" href="?view=mine">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8m0 2c4.4 0 8 2 8 4.5V21H4v-2.5C4 16 7.6 14 12 14"/></svg>
+        自分が更新したファイル
+      </a>
+    </nav>
+    <div class="nav-section">フォルダー</div>
+    <div class="tree" id="tree"></div>
+    <div class="quota">
+      <div class="quota-bar"><span style="width:18%"></span></div>
+      <div class="quota-text">使用量 18.4 GB / 100 GB</div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="crumbs" id="crumbs"></div>
+    <div class="title-row">
+      <h1 id="title"></h1>
+    </div>
+    <div class="toolbar">
+      <button class="btn primary" type="button"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z"/></svg>新規</button>
+      <button class="btn" type="button"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M11 16V7.8L8.4 10.4 7 9l5-5 5 5-1.4 1.4L13 7.8V16zM5 18h14v2H5z"/></svg>アップロード</button>
+      <button class="btn ghost" type="button"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M18 16a3 3 0 0 0-2.1.9l-7-4a3 3 0 0 0 0-1.8l7-4A3 3 0 1 0 15 5a3 3 0 0 0 .1.9l-7 4a3 3 0 1 0 0 4.2l7 4A3 3 0 1 0 18 16"/></svg>共有</button>
+      <span class="spacer"></span>
+      <span class="count" id="count"></span>
+      <div class="seg" role="group" aria-label="表示切替">
+        <button type="button" data-mode="list" title="リスト表示"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 5h16v2H4zm0 6h16v2H4zm0 6h16v2H4z"/></svg></button>
+        <button type="button" data-mode="grid" title="グリッド表示"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></svg></button>
+      </div>
+    </div>
+    <div class="content" id="content"></div>
+  </main>
+</div>
+
+<div class="preview" id="preview" hidden>
+  <div class="pv-head">
+    <button class="icon-btn pv-close" id="pv-close" title="閉じる (Esc)" aria-label="閉じる"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6 10.6 12 5 6.4z"/></svg></button>
+    <span class="pv-icon" id="pv-icon"></span>
+    <div class="pv-name" id="pv-name"></div>
+    <span class="spacer"></span>
+    <button class="icon-btn" id="pv-prev" title="前のファイル"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4-4.6-4.6z"/></svg></button>
+    <button class="icon-btn" id="pv-next" title="次のファイル"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M8.6 16.6 10 18l6-6-6-6-1.4 1.4 4.6 4.6z"/></svg></button>
+    <a class="btn primary" id="pv-download" href="#"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M11 4h2v8.2l2.6-2.6L17 11l-5 5-5-5 1.4-1.4 2.6 2.6zM5 18h14v2H5z"/></svg>ダウンロード</a>
+  </div>
+  <div class="pv-body">
+    <div class="pv-stage" id="pv-stage"></div>
+    <aside class="pv-info" id="pv-info"></aside>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script type="module" src="/storage/storage.js"></script>
+</body>
+</html>
