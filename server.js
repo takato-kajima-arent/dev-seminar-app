@@ -6,13 +6,14 @@
 //   GET  /api/files/:fileId/table … xlsx をシートごとの 2 次元配列にして返す（プレビュー用）
 //   GET/POST /api/session     … アクター（現場管理者・本社・事務）の取得・切替
 //   POST /admin/reset         … data/*.json の初期状態に戻す（アクターはそのまま）
-//   （MCP エンドポイント /mcp は後続で追加予定）
+//   POST /mcp                 … AI秘書向け MCP（Streamable HTTP・ステートレス）。ツールは src/mcp.js
 import express from "express";
 import ExcelJS from "exceljs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { existsSync } from "node:fs";
 import * as store from "./src/store.js";
+import { mountMcp } from "./src/mcp.js";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -69,6 +70,8 @@ app.get("/api/files/:fileId/table", async (req, res) => {
     res.status(500).json({ error: e.message });
   }
 });
+
+mountMcp(app);
 
 // アクター（目線）の取得・切替。切替は全画面にポーリングで伝わる
 app.get("/api/session", (_req, res) => {
