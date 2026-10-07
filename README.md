@@ -24,7 +24,7 @@ npm start          # http://localhost:3000
 ## 仕組み
 
 - `data/*.json` を起動時にメモリへ読み込みます。DBは使いません。
-- 書き込み（今後実装するMCPツールから行う）はメモリ上にだけ反映されます。再起動するか `POST /admin/reset` を呼ぶと、初期状態に戻ります。
+- 書き込み（MCP ツールから行う）はメモリ上にだけ反映されます。再起動するか `POST /admin/reset` を呼ぶと、初期状態に戻ります。
 - 画面は `/api/version` を2.5秒ごとに確認し、変化があったときだけ再描画します。
 - ファイル本体は `files/` に置き、台帳は `data/storage.json` です。生成し直すときは `npm run gen:files` を実行します（ローカルのChromeとpuppeteer-coreを使います）。
 
